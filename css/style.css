@@ -11,6 +11,10 @@ body {
     color: #d39e00;
 }
 
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+}
+
 
 .navbar-nav a {
     font-size: 25px;
@@ -31,12 +35,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+#content-desktop {
+    display: block;
 }
 
 .jumbotron {
     font-family: 'Abel', sans-serif;
-    font-size: large;
+    font-size: 20px;
     color: #fff;
     background-color: transparent;
     text-align: center;
@@ -47,13 +54,23 @@ body {
     
 }
 
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;} 
+.hide-mobile {display: none;}
+}
+
+
 /* Testimonials*/
 .testimonial-header {
     font-family: 'Abel', sans-serif;
     color: #d39e00;
     text-align: center;
     margin-top: 10px;
-    font-size: large;
+    font-size: 10px;
     
 }
 
@@ -69,5 +86,9 @@ body {
 }
 
 .media {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.h2, h2 {
+    font-size: 38px;
 }
