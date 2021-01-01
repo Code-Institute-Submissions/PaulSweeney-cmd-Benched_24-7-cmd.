@@ -5,14 +5,15 @@ body {
 /* Navbar styling */
 
 .navbar-light .navbar-brand {
-    letter-spacing: 5px;
-    font-size: 22px;
+    letter-spacing: 2px;
+    font-size: 30px;
     font-weight: bold;
     color: #d39e00;
 }
 
+
 .navbar-nav a {
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .btn {
@@ -49,13 +50,24 @@ body {
 /* Testimonials*/
 .testimonial-header {
     font-family: 'Abel', sans-serif;
-    color: #fff;
+    color: #d39e00;
     text-align: center;
     margin-top: 10px;
+    font-size: large;
+    
 }
 
 .container-wrapper {
-    background-color: #d39e00;
+    background-color: #fff;
     padding: 0;
     height: 30vh
+}
+
+.quotes-container {
+    background-color: #d39e00;
+    width: 100vw;
+}
+
+.media {
+    margin-top: 20px;
 }
