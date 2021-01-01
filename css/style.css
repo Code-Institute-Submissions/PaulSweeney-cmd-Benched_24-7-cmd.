@@ -2,6 +2,8 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+/* Navbar styling */
+
 .navbar-light .navbar-brand {
     letter-spacing: 5px;
     font-size: 22px;
@@ -14,4 +16,27 @@ body {
 
 .btn {
     font-weight: 700;
+}
+
+/* container styling */
+.image-container {
+    height: 100vh;
+    background: url('../images/home-photo.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    font-family: 'Abel', sans-serif;
+    font-size: large;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    
 }
