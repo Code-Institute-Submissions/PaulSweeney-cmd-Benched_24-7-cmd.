@@ -1,0 +1,17 @@
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    letter-spacing: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-nav a {
+    font-size: 17px;
+}
+
+.btn {
+    font-weight: 700;
+}
