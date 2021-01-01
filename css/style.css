@@ -8,6 +8,7 @@ body {
     letter-spacing: 5px;
     font-size: 22px;
     font-weight: bold;
+    color: #d39e00;
 }
 
 .navbar-nav a {
@@ -21,11 +22,15 @@ body {
 /* container styling */
 .image-container {
     height: 100vh;
-    background: url('../images/home-photo.jpg');
+    background: url('../images/home-photo.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .jumbotron {
@@ -39,4 +44,18 @@ body {
 .container {
     align-items: center;
     
+}
+
+/* Testimonials*/
+.testimonial-header {
+    font-family: 'Abel', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-wrapper {
+    background-color: #d39e00;
+    padding: 0;
+    height: 30vh
 }
