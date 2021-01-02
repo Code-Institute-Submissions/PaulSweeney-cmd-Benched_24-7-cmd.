@@ -8,7 +8,7 @@ body {
     letter-spacing: 2px;
     font-size: 30px;
     font-weight: bold;
-    color: #d39e00;
+    color: #4b8bb9;
 }
 
 .navbar {
@@ -26,7 +26,7 @@ body {
 
 /* container styling */
 .image-container {
-    height: 100vh;
+    height: 90vh;
     background: url('../images/home-photo.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,7 +38,7 @@ body {
 }
 
 .signup-container {
-    height: 100vh;
+    height: 30%;
     background: url('../images/dumbell.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -63,12 +63,9 @@ body {
 
 .container {
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 
-.media-male {
-    margin-bottom: 30px;
-}
 
 /*Media queries*/
 
@@ -80,14 +77,18 @@ body {
 #hide-desktop {display: block;}
 }
 
+/*Icons*/
+
+
 
 /* Testimonials*/
 .testimonial-header {
     font-family: 'Abel', sans-serif;
-    color: #d39e00;
+    color: #4b8bb9;
     text-align: center;
     margin-top: 10px;
     font-size: 10px;
+    padding-top: 30px;
     
 }
 
@@ -97,10 +98,7 @@ body {
     height: 30vh
 }
 
-.quotes-container {
-    background-color: #d39e00;
-    width: 100vw;
-}
+
 
 .media {
     margin-top: 40px;
@@ -108,4 +106,10 @@ body {
 
 .h2, h2 {
     font-size: 38px;
+}
+
+/* Buttons */
+
+.btn {
+    color: #4b8bb9;
 }
