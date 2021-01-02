@@ -1,10 +1,10 @@
 # Paul Sweeney - MS1 Project - Benched 24/7
 
 This is my website for a fictional 24 hour gym. I created this site based on my own experiences from looking for a new gym to join.
-# Business Goal:
+# - Business Goal
 
 The aim to retain current members and attract new members is for the gym to have a partnership with a sportswear brand to scout potential new models for an ever-growing sportwear brand "SportiveWear" to become the face of the gyms publicity. Both businesses benefit as they get more exposure in each others environment.
-# User Experience (UX)
+# - User Experience (UX)
 
 ## 1. First Time Visitor Goals:
 * As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers.
@@ -18,3 +18,9 @@ The aim to retain current members and attract new members is for the gym to have
 * I would like to check for any new membership discount offers and promotions.
 * I would like to check if there are any changes to company policy and procedure regarding COVID-19 restrictions or otherwise.
 
+# - Design
+## 1. Colour Scheme:
+* The colour scheme for the design consist of blacks, blues and whites. I based these choices on the colour scheme featured in the home page hero image. I beleive they go very well together and give the site a professional look. 
+
+## 2. Typography:
+* 
