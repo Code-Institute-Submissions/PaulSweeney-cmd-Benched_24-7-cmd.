@@ -37,6 +37,19 @@ body {
     justify-content: center;
 }
 
+.signup-container {
+    height: 100vh;
+    background: url('../images/dumbell.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 #content-desktop {
     display: block;
 }
@@ -61,6 +74,7 @@ body {
 #content-desktop {display: none;}
 #content-mobile {display: block;} 
 .hide-mobile {display: none;}
+#hide-desktop {display: block;}
 }
 
 
