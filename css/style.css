@@ -2,7 +2,7 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
-/* Navbar styling */
+/*--------------------------------------------------Navbar styling */
 
 .navbar-light .navbar-brand {
     letter-spacing: 2px;
@@ -24,7 +24,7 @@ body {
     font-weight: 700;
 }
 
-/* container styling */
+/*--------------------------------------------------container styling */
 .image-container {
     height: 90vh;
     background: url('../images/home-photo.jpg') no-repeat center center;
@@ -37,8 +37,8 @@ body {
     justify-content: center;
 }
 
-.signup-container {
-    height: 30%;
+.refer-container {
+    height: 50vh;
     background: url('../images/dumbell.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -53,20 +53,31 @@ body {
     display: block;
 }
 
-.jumbotron {
-    font-family: 'Abel', sans-serif;
-    font-size: 20px;
+/*--------------------------------------------------Jumbotron styling*/
+
+.jumbotron-refer {
+    font-family:'Abel', sans-serif;
+    font-size: 18px;
     color: #fff;
     background-color: transparent;
     text-align: center;
 }
 
-.container {
-    align-items: center;
-    padding-bottom: 70px;
+.jumbotron {
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
 }
 
-.facilities-header {
+
+.container {
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.gym-features-header {
     text-align: center;
     padding-top: 25px;
     color: #4b8bb9;
@@ -75,7 +86,7 @@ body {
 }
 
 
-/*Media queries*/
+/*--------------------------------------------------Media queries*/
 
 @media screen and (max-width: 768px) {
 
@@ -85,11 +96,11 @@ body {
 #hide-desktop {display: block;}
 }
 
-/*Icons*/
+/*--------------------------------------------------Icons*/
 
 
 
-/* Testimonials*/
+/*--------------------------------------------------Testimonials*/
 .testimonial-header {
     font-family: 'Abel', sans-serif;
     color: #4b8bb9;
@@ -117,8 +128,10 @@ body {
     letter-spacing: 1px;
 }
 
+
 /* Buttons */
 
 .btn {
     color: #4b8bb9;
 }
+
