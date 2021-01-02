@@ -66,6 +66,14 @@ body {
     padding-bottom: 70px;
 }
 
+.facilities-header {
+    text-align: center;
+    padding-top: 25px;
+    color: #4b8bb9;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+
 
 /*Media queries*/
 
@@ -106,6 +114,7 @@ body {
 
 .h2, h2 {
     font-size: 38px;
+    letter-spacing: 1px;
 }
 
 /* Buttons */
