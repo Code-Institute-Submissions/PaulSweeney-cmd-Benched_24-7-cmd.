@@ -91,10 +91,11 @@ body {
 @media screen and (max-width: 768px) {
 
 #content-desktop {display: none;}
-#content-mobile {display: block;} 
+#content-mobile {display: block;}
 .hide-mobile {display: none;}
 #hide-desktop {display: block;}
 }
+
 
 /*--------------------------------------------------Icons*/
 
@@ -127,7 +128,6 @@ body {
     font-size: 38px;
     letter-spacing: 1px;
 }
-
 
 /* Buttons */
 
