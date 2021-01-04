@@ -137,3 +137,8 @@ body {
     color: #4b8bb9;
 }
 
+h4 {
+    padding-bottom: 25px;
+    color: #4b8bb9;
+    word-spacing: -1px;
+}
