@@ -98,11 +98,6 @@ body {
 #hide-desktop {display: block;}
 }
 
-
-/*--------------------------------------------------Icons*/
-
-
-
 /*--------------------------------------------------Testimonials*/
 .testimonial-header {
     font-family: 'Abel', sans-serif;
@@ -120,8 +115,6 @@ body {
     height: 30vh
 }
 
-
-
 .media {
     margin-top: 40px;
 }
@@ -131,14 +124,18 @@ body {
     letter-spacing: 1px;
 }
 
-/* Buttons */
-
-.btn {
-    color: #4b8bb9;
-}
+/*--------------------------------------------------Gym Features*/
 
 h4 {
     padding-bottom: 25px;
     color: #4b8bb9;
     word-spacing: -1px;
 }
+
+/*--------------------------------------------------Buttons */
+
+.btn {
+    color: #4b8bb9;
+}
+
+/*--------------------------------------------------Footer */
