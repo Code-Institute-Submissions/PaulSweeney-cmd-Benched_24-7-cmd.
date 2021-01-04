@@ -13,11 +13,6 @@ body {
     color: #4b8bb9;
 }
 
-.navbar {
-    background-color: rgba(0,0,0,0.5);
-}
-
-
 .navbar-nav a {
     font-size: 25px;
 }
@@ -26,9 +21,20 @@ body {
     font-weight: 700;
 }
 
+.bg-light {
+    background-color: black !important;
+}
+
+.navbar-light, .navbar-nav .nav-link {
+    color: #fafafa !important;
+}
+
+
+
+
 /*--------------------------------------------------container styling */
 .image-container {
-    height: 90vh;
+    height: 150vh;
     background: url('../images/home-photo.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -55,6 +61,19 @@ body {
     display: block;
 }
 
+.container {
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.gym-features-header {
+    text-align: center;
+    padding-top: 25px;
+    color: #4b8bb9;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+
 /*--------------------------------------------------Jumbotron styling*/
 
 .jumbotron-refer {
@@ -71,31 +90,6 @@ body {
     color: #fff;
     background-color: transparent;
     text-align: center;
-}
-
-
-.container {
-    align-items: center;
-    padding-bottom: 60px;
-}
-
-.gym-features-header {
-    text-align: center;
-    padding-top: 25px;
-    color: #4b8bb9;
-    letter-spacing: 1px;
-    font-size: 38px;
-}
-
-
-/*--------------------------------------------------Media queries*/
-
-@media screen and (max-width: 768px) {
-
-#content-desktop {display: none;}
-#content-mobile {display: block;}
-.hide-mobile {display: none;}
-#hide-desktop {display: block;}
 }
 
 /*--------------------------------------------------Testimonials*/
@@ -122,7 +116,9 @@ body {
 .h2, h2 {
     font-size: 38px;
     letter-spacing: 1px;
-}
+} 
+
+
 
 /*--------------------------------------------------Gym Features*/
 
@@ -138,4 +134,33 @@ h4 {
     color: #4b8bb9;
 }
 
+.btn:hover {
+    background-color: #4b8bb9;
+}
+
+.btn-outline-secondary {
+    border-color: #4b8bb9;
+}
+
 /*--------------------------------------------------Footer */
+
+.fa-instagram:hover {
+    color: black !important;
+}
+
+.fa-facebook-square:hover {
+    color: black !important;
+}
+
+.fa-bars:hover {
+    color: #4b8bb9;
+}
+
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+.hide-mobile {display: none;}
+#hide-desktop {display: block;}
+}
