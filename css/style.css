@@ -57,6 +57,18 @@ body {
     justify-content: center;
 }
 
+.gym-container {
+    height: 90vh;
+    background: url('../images/gym-floor.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #content-desktop {
     display: block;
 }
