@@ -102,6 +102,19 @@ body {
     color: #fafafa;
 }
 
+.blockquote h5 {
+    color: #fafafa;
+    text-align: inherit;
+}
+
+.form-row {
+    color: #fafafa;
+}
+
+.text-muted {
+    color: #fafafa !important;
+}
+
 
 
 /*--------------------------------------------------Jumbotron styling*/
