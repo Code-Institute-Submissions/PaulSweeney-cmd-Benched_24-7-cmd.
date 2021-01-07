@@ -29,10 +29,7 @@ body {
     color: #fafafa !important;
 }
 
-
-
-
-/*--------------------------------------------------container styling */
+/*--------------------------------------------------Image container styling */
 .image-container {
     height: 150vh;
     background: url('../images/home-photo.jpg') no-repeat center center;
@@ -69,22 +66,14 @@ body {
     justify-content: center;
 }
 
-#content-desktop {
-    display: block;
-}
+/*--------------------------------------------------General container styling */
 
 .container {
     align-items: center;
     padding-bottom: 60px;
 }
 
-.gym-features-header {
-    text-align: center;
-    padding-top: 25px;
-    color: #4b8bb9;
-    letter-spacing: 1px;
-    font-size: 38px;
-}
+/*--------------------------------------------------Ask Us container styling */
 
 .ask-us-anything-header {
     text-align: center;
@@ -107,7 +96,7 @@ body {
 }
 
 .form-row {
-    color: #fafafa;
+    color: #fafafa; 
 }
 
 .text-muted {
@@ -118,7 +107,15 @@ body {
     padding-bottom: 15px;
 }
 
+/*--------------------------------------------------Gym features styling*/
 
+.gym-features-header {
+    text-align: center;
+    padding-top: 25px;
+    color: #4b8bb9;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
 
 /*--------------------------------------------------Jumbotron styling*/
 
@@ -165,7 +162,6 @@ body {
 } 
 
 
-
 /*--------------------------------------------------Gym Features*/
 
 h4 {
@@ -202,6 +198,7 @@ h4 {
     color: #4b8bb9;
 }
 
+/*--------------------------------------------------Container media queries and styling */
 
 @media screen and (max-width: 768px) {
 
@@ -209,5 +206,8 @@ h4 {
 #content-mobile {display: block;}
 .hide-mobile {display: none;}
 #hide-desktop {display: block;}
+}
 
+#content-desktop {
+    display: block;
 }
