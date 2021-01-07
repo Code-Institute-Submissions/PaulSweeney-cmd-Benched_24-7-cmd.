@@ -104,7 +104,6 @@ body {
 
 .blockquote h5 {
     color: #fafafa;
-    text-align: inherit;
 }
 
 .form-row {
@@ -113,6 +112,10 @@ body {
 
 .text-muted {
     color: #fafafa !important;
+}
+
+.ask-us-anything-paragraph-container{
+    padding-bottom: 15px;
 }
 
 
