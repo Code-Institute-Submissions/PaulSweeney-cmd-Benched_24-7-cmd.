@@ -94,6 +94,14 @@ body {
     font-size: 38px;
 }
 
+.container-background {
+    background-color: black;
+}
+
+.ask-us-anything-header h4 {
+    color: #fafafa;
+}
+
 
 
 /*--------------------------------------------------Jumbotron styling*/
