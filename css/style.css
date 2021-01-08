@@ -59,7 +59,7 @@ button.navbar-toggler{
 }
 
 .gym-container {
-    height: 90vh;
+    height: 110vh;
     background: url('../images/gym-floor.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -210,6 +210,7 @@ h4 {
 #content-mobile {display: block;}
 .hide-mobile {display: none;}
 #hide-desktop {display: block;}
+.no-mobile {display: none;}
 }
 
 #content-desktop {
