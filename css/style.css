@@ -29,6 +29,11 @@ body {
     color: #fafafa !important;
 }
 
+button.navbar-toggler{
+    color: #fafafa;
+}
+
+
 /*--------------------------------------------------Image container styling */
 .image-container {
     height: 150vh;
