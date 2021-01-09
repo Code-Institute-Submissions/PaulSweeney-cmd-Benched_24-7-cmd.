@@ -35,8 +35,8 @@ button.navbar-toggler{
 
 /*--------------------------------------------------Image container styling */
 .image-container {
-    height: 100vh;
-    background: url('../images/young.jpg') no-repeat center center;
+    height: 105vh;
+    background: url('../images/woman-stretching.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +59,7 @@ button.navbar-toggler{
 }
 
 .gym-container {
-    height: 100vh;
+    height: 105vh;
     background: url('../images/gym-floor.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -71,8 +71,8 @@ button.navbar-toggler{
 }
 
 .sportive-container {
-    height: 125vh;
-    background: url('../images/couple.jpg') no-repeat center center;
+    height: 105vh;
+    background: url('../images/ropes.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
