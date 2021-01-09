@@ -188,6 +188,9 @@ h4 {
     word-spacing: -1px;
 }
 
+
+
+
 /*--------------------------------------------------Buttons */
 
 .btn {
@@ -216,9 +219,7 @@ h4 {
     color: #4b8bb9;
 }
 
-#photo {
-    column-count: 2;
-}
+
 
 /*--------------------------------------------------Container media queries and styling */
 
@@ -231,12 +232,9 @@ h4 {
 .no-mobile {display: none;}
 }
 
- @media screen and (max-width: 768px) {
-    #photo {
-     column-count:1;
-    }
-  }
 
-#content-desktop {
+
+#content-desktop { 
     display: block;
 }
+
