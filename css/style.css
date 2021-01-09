@@ -60,7 +60,7 @@ button.navbar-toggler{
 
 .gym-container {
     height: 100vh;
-    background: url('../images/gym-floor.jpg');
+    background: url('../images/gym-floor.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,6 +69,19 @@ button.navbar-toggler{
     align-items: center;
     justify-content: center;
 }
+
+.sportive-container {
+    height: 125vh;
+    background: url('../images/couple.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*--------------------------------------------------General container styling */
 
