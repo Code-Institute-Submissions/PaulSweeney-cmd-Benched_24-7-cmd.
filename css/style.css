@@ -35,8 +35,8 @@ button.navbar-toggler{
 
 /*--------------------------------------------------Image container styling */
 .image-container {
-    height: 150vh;
-    background: url('../images/home-photo.jpg') no-repeat center center;
+    height: 100vh;
+    background: url('../images/young.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +59,7 @@ button.navbar-toggler{
 }
 
 .gym-container {
-    height: 110vh;
+    height: 100vh;
     background: url('../images/gym-floor.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -76,6 +76,7 @@ button.navbar-toggler{
     align-items: center;
     padding-bottom: 60px;
 }
+
 
 /*--------------------------------------------------Ask Us container styling */
 
