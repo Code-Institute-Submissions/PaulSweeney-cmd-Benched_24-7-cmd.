@@ -86,9 +86,6 @@ body {
     justify-content: center;
 }
 
-.text-container {
-    background-color: #4b8bb9;
-}
 /*--------------------------------------------------General container styling */
 
 .container {
@@ -96,6 +93,9 @@ body {
     padding-bottom: 60px;
 }
 
+.text-container {
+    background-color: #4b8bb9;
+}
 
 /*--------------------------------------------------Ask Us container styling */
 
@@ -244,7 +244,6 @@ button.navbar-toggler{
 #hide-desktop {display: block;}
 .no-mobile {display: none;}
 }
-
 #content-desktop { 
     display: block;
 }
