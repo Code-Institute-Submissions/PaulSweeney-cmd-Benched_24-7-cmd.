@@ -196,6 +196,13 @@ body {
     margin-bottom: 300px;
 }
 
+.i {
+    padding-bottom: 30px;
+}
+
+div.media-body {
+    margin-bottom: 0;
+}
 /*--------------------------------------------------Gym Features*/
 
 h4 {
@@ -227,9 +234,6 @@ div.pa-image {
     left: 50%;
     transform: translate(-50%, -50%) 
 }
-
-
-
 
 div.pa-image {
     padding-top: 115px;
