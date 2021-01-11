@@ -190,7 +190,11 @@ body {
 .h2, h2 {
     font-size: 38px;
     letter-spacing: 1px;
-} 
+}
+
+.testimonial-text {
+    margin-bottom: 300px;
+}
 
 /*--------------------------------------------------Gym Features*/
 
@@ -216,6 +220,16 @@ div.pa-image {
     left: 50%;
     transform: translate(-50%, -50%) 
 }
+
+.rounded-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+
 
 div.pa-image {
     padding-top: 115px;
