@@ -101,6 +101,8 @@ body {
     padding-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------Ask Us container styling */
 
 .ask-us-anything-header {
@@ -163,6 +165,11 @@ body {
     text-align: center;
 }
 
+.deadline-text {
+    font-size: 30px;
+    float: left;
+}
+
 /*--------------------------------------------------Testimonials*/
 
 .testimonial-header {
@@ -177,10 +184,8 @@ body {
 
 .media {
     margin-top: 40px;
-    padding: 50px 20px 20px 50px;
+    
 }
-
-
 
 .h2, h2 {
     font-size: 38px;
@@ -197,10 +202,16 @@ h4 {
 
 /*--------------------------------------------------Media section*/
 
-.media {
+.img {
     margin-top: 40px;
-    padding: 50px 20px 20px 50px;
 }
+
+.pa-header {
+    text-align: center;
+    padding-bottom: 0;
+    color: #4b8bb9;
+}
+
 
 /*--------------------------------------------------Buttons */
 
@@ -238,6 +249,14 @@ button.navbar-toggler{
     color: #4b8bb9;
 }
 
+div.media {
+    padding: 0px;
+}
+
+div.media {
+    margin-right: 0px;
+}
+
 /*--------------------------------------------------Container media queries and styling */
 
 @media screen and (max-width: 768px) {
@@ -247,8 +266,30 @@ button.navbar-toggler{
 .hide-mobile {display: none;}
 #hide-desktop {display: block;}
 .no-mobile {display: none;}
+
 }
 #content-desktop { 
     display: block;
+}
+
+div.pa-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
+}
+
+div.pa-image {
+    padding-top: 115px;
+}
+
+.pa-intro {
+    color: #4b8bb9;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+p.intro {
+    padding-bottom: 35px;
 }
 
