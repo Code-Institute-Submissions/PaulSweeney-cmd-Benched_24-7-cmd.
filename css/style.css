@@ -17,10 +17,6 @@ body {
     font-size: 25px;
 }
 
-.btn {
-    font-weight: 700;
-}
-
 .bg-light {
     background-color: black !important;
 }
@@ -29,12 +25,8 @@ body {
     color: #fafafa !important;
 }
 
-button.navbar-toggler{
-    color: #fafafa;
-}
-
-/*--------------------------------------------------Image container styling */
-.image-container {
+/*--------------------------------------------------Home About Us & Sportive hero image container styling */
+.home-image-container {
     height: 105vh;
     background: url('../images/woman-stretching.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -81,7 +73,6 @@ button.navbar-toggler{
     align-items: center;
     justify-content: center;
 }
-
 
 /*--------------------------------------------------General container styling */
 
@@ -154,6 +145,7 @@ button.navbar-toggler{
 }
 
 /*--------------------------------------------------Testimonials*/
+
 .testimonial-header {
     font-family: 'Abel', sans-serif;
     color: #4b8bb9;
@@ -164,21 +156,17 @@ button.navbar-toggler{
     
 }
 
-.container-wrapper {
-    background-color: #fff;
-    padding: 0;
-    height: 30vh
-}
-
 .media {
     margin-top: 40px;
+    padding: 50px 20px 20px 50px;
 }
+
+
 
 .h2, h2 {
     font-size: 38px;
     letter-spacing: 1px;
 } 
-
 
 /*--------------------------------------------------Gym Features*/
 
@@ -187,9 +175,6 @@ h4 {
     color: #4b8bb9;
     word-spacing: -1px;
 }
-
-
-
 
 /*--------------------------------------------------Buttons */
 
@@ -205,6 +190,14 @@ h4 {
     border-color: #4b8bb9;
 }
 
+button.navbar-toggler{
+    color: #fafafa;
+}
+
+.btn {
+    font-weight: 700;
+}
+
 /*--------------------------------------------------Footer */
 
 .fa-instagram:hover {
@@ -218,8 +211,6 @@ h4 {
 .fa-bars:hover {
     color: #4b8bb9;
 }
-
-
 
 /*--------------------------------------------------Container media queries and styling */
 
