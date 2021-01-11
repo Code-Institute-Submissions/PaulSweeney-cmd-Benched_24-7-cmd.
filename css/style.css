@@ -70,6 +70,18 @@ body {
     -o-background-size: cover;
     background-size: cover;
     display: flex;
+    align-items: center;b
+    justify-content: center;
+}
+
+.countdown-container {
+    height: 65vh;
+    background: url('../images/sportive-man-dumbbell.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -176,6 +188,13 @@ h4 {
     word-spacing: -1px;
 }
 
+/*--------------------------------------------------Media section*/
+
+.media {
+    margin-top: 40px;
+    padding: 50px 20px 20px 50px;
+}
+
 /*--------------------------------------------------Buttons */
 
 .btn {
@@ -222,8 +241,6 @@ button.navbar-toggler{
 #hide-desktop {display: block;}
 .no-mobile {display: none;}
 }
-
-
 
 #content-desktop { 
     display: block;
