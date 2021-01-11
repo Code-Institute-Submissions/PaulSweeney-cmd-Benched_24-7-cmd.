@@ -97,6 +97,10 @@ body {
     background-color: #4b8bb9;
 }
 
+.collaboration-text {
+    padding-bottom: 0;
+}
+
 /*--------------------------------------------------Ask Us container styling */
 
 .ask-us-anything-header {
