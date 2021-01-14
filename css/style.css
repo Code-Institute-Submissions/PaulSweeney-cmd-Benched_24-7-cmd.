@@ -5,7 +5,9 @@ body {
 }
 
 /*--------------------------------------------------Navbar styling */
-
+.navbar {
+    background-color: black;
+}
 .navbar-light .navbar-brand {
     letter-spacing: 2px;
     font-size: 30px;
@@ -13,17 +15,32 @@ body {
     color: #4b8bb9;
 }
 
+.navbar-brand {
+    color: #4b8bb9;
+    font-size: 35px;
+    letter-spacing: 2px;
+
+}
+
 .navbar-nav a {
     font-size: 25px;
 }
 
-.bg-light {
-    background-color: black !important;
+
+a.nav-link {
+    color: #fafafa;
+}
+.nav-link:hover {
+    color: #4b8bb9;
+}
+.active a {
+    color: #4b8bb9;
 }
 
-.navbar-light, .navbar-nav .nav-link {
-    color: #fafafa !important;
+.navbar-brand:hover {
+    color: #fafafa;
 }
+
 
 /*--------------------------------------------------Home About Us & Sportive hero image container styling */
 .home-image-container {
@@ -148,6 +165,12 @@ body {
 }
 
 /*--------------------------------------------------Jumbotron styling*/
+#content-desktop {
+    background-color: #07070794;
+    padding: 10px;
+    border-radius: 11px;
+}
+
 
 .jumbotron-refer {
     font-family:'Abel', sans-serif;
@@ -291,18 +314,6 @@ div.media {
 
 div.media {
     margin-right: 0px;
-}
-
-.nav-link:hover {
-    color: #4b8bb9 !important;
-}
-
-.nav-link:active {
-    color: #4b8bb9 !important;
-}
-
-.navbar-brand:hover {
-    color: #fafafa !important;
 }
 
 /*--------------------------------------------------Container media queries and styling */
