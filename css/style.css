@@ -26,9 +26,9 @@ body {
     font-size: 25px;
 }
 
-
 a.nav-link {
     color: #fafafa;
+    font-size: 31px;
 }
 .nav-link:hover {
     color: #4b8bb9;
@@ -147,7 +147,7 @@ a.nav-link {
 }
 
 .text-muted {
-    color: #fafafa !important;
+    color: #fafafa;
 }
 
 .ask-us-anything-paragraph-container{
@@ -318,16 +318,12 @@ button.navbar-toggler{
     padding-right: 15px;
 }
 
-div.media {
-    padding: 0px;
-}
-
-div.media {
-    margin-right: 0px;
-}
-
-.card-header-text {
+.card {
+    text-align: center;
     background-color: #4b8bb9;
+}
+
+.card-header {
     padding-bottom: 25px
 }
 
@@ -336,6 +332,7 @@ div.media {
     padding-top: 25px;
     padding-bottom: 10px;
     font-size: 32px;
+    text-align: center;
 }
 /*--------------------------------------------------Container media queries and styling */
 
