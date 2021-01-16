@@ -171,7 +171,6 @@ a.nav-link {
     border-radius: 11px;
 }
 
-
 .jumbotron-refer {
     font-family:'Abel', sans-serif;
     font-size: 18px;
@@ -297,15 +296,26 @@ button.navbar-toggler{
 /*--------------------------------------------------Footer */
 
 .fa-instagram:hover {
-    color: black !important;
+    color: black;
 }
 
 .fa-facebook-square:hover {
-    color: black !important;
+    color: black;
 }
 
 .fa-bars:hover {
     color: #4b8bb9;
+}
+
+.fa-instagram {
+    font-size: 47px;
+    color: #fafafa;
+}
+
+.fa-facebook-square {
+    font-size: 47px;
+    color: #fafafa;
+    padding-right: 15px;
 }
 
 div.media {
@@ -316,6 +326,17 @@ div.media {
     margin-right: 0px;
 }
 
+.card-header-text {
+    background-color: #4b8bb9;
+    padding-bottom: 25px
+}
+
+.footer-header {
+    color: #fafafa;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
 /*--------------------------------------------------Container media queries and styling */
 
 @media screen and (max-width: 768px) {
