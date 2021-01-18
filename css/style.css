@@ -227,13 +227,16 @@ div.media-body {
 }
 /*--------------------------------------------------Gym Features*/
 
-h4 {
+h4, h4 {
     padding-bottom: 25px;
     color: #4b8bb9;
     word-spacing: -1px;
+    text-align: center;
 }
 
+
 /*--------------------------------------------------Media section*/
+
 
 
 
@@ -323,8 +326,9 @@ button.navbar-toggler{
     background-color: #4b8bb9;
 }
 
+
 .card-header {
-    padding-bottom: 25px
+    padding-bottom: 25px;
 }
 
 .footer-header {
