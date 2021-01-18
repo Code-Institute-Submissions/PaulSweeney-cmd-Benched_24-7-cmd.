@@ -168,6 +168,12 @@ a.nav-link {
     border-radius: 11px;
 }
 
+.home-image-text {
+    margin-bottom: 1rem;
+    padding: 25px;
+}
+
+
 .about-gym-text {
     font-size: 24px;
 }
@@ -186,6 +192,10 @@ a.nav-link {
     color: #fff;
     background-color: transparent;
     text-align: center;
+}
+
+p.refer-text {
+    margin-top: 0;
 }
 
 .deadline-text {
@@ -366,6 +376,7 @@ button.navbar-toggler{
     padding-bottom: 10px;
     font-size: 32px;
     text-align: center;
+    margin-top: 0;
 }
 /*--------------------------------------------------Container media queries and styling */
 
