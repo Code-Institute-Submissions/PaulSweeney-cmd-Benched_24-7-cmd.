@@ -107,7 +107,7 @@ a.nav-link {
 
 .container {
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .text-container {
@@ -363,6 +363,7 @@ button.navbar-toggler{
 .card {
     text-align: center;
     background-color: #4b8bb9;
+    margin-top: 75px;
 }
 
 
