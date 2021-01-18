@@ -118,8 +118,6 @@ a.nav-link {
     padding-bottom: 0;
 }
 
-
-
 /*--------------------------------------------------Ask Us container styling */
 
 .ask-us-anything-header {
@@ -225,19 +223,21 @@ a.nav-link {
 div.media-body {
     margin-bottom: 0;
 }
-/*--------------------------------------------------Gym Features*/
+/*--------------------------------------------------Gym Features */
 
-h4, h4 {
+h4 {
     padding-bottom: 25px;
     color: #4b8bb9;
     word-spacing: -1px;
-    text-align: center;
 }
 
 
 /*--------------------------------------------------Media section*/
 
-
+div.container.media-image {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
 
 
 .pa-header {
