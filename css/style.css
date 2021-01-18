@@ -165,8 +165,11 @@ a.nav-link {
 /*--------------------------------------------------Jumbotron styling*/
 #content-desktop {
     background-color: #07070794;
-    padding: 10px;
     border-radius: 11px;
+}
+
+.about-gym-text {
+    font-size: 24px;
 }
 
 .jumbotron-refer {
@@ -199,7 +202,11 @@ a.nav-link {
     margin-top: 10px;
     font-size: 10px;
     padding-top: 30px;
-    
+}
+
+.member-story {
+    font-size: 19px;
+    padding-top: 13px;
 }
 
 .media {
@@ -212,9 +219,6 @@ a.nav-link {
     letter-spacing: 1px;
 }
 
-.testimonial-text {
-    margin-bottom: 300px;
-}
 
 .i {
     padding-bottom: 30px;
@@ -222,6 +226,22 @@ a.nav-link {
 
 div.media-body {
     margin-bottom: 0;
+}
+
+/*--------------------------------------------------Trainer section*/
+
+.trainer-header {
+    font-family: 'Abel', sans-serif;
+    color: #4b8bb9;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+.trainer-story {
+    font-size: 19px;
+    padding-top: 13px;
 }
 /*--------------------------------------------------Gym Features */
 
@@ -232,7 +252,7 @@ h4 {
 }
 
 
-/*--------------------------------------------------Media section*/
+/*--------------------------------------------------Media/Trainer/PA section*/
 
 div.container.media-image {
     margin-bottom: 25px;
@@ -255,7 +275,7 @@ div.pa-image {
 
 .rounded-circle {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%) 
 }
@@ -272,6 +292,11 @@ div.pa-image {
 
 p.intro {
     padding-bottom: 35px;
+}
+
+P {
+    margin-bottom: 1rem;
+    margin-top: 200px;
 }
 
 /*--------------------------------------------------Buttons */
