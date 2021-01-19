@@ -107,7 +107,7 @@ a.nav-link {
 
 .container {
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 23px;
 }
 
 .text-container {
@@ -298,6 +298,10 @@ P {
 }
 
 .about-media {
+    text-align: center;
+}
+
+.home-media {
     text-align: center;
 }
 
