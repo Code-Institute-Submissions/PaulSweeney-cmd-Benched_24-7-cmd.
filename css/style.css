@@ -300,6 +300,10 @@ P {
 .about-media {
     text-align: center;
 }
+
+.rounded-circle {
+    margin-bottom: 25px;
+}
 /*--------------------------------------------------Buttons */
 
 .btn {
