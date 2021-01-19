@@ -276,23 +276,7 @@ div.container.media-image {
     color: #4b8bb9;
 }
 
-div.pa-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) 
-}
 
-.rounded-circle {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%) 
-}
-
-.rounded-circle {
-    margin-top: 20px;
-}
 
 div.pa-image {
     padding-top: 115px;
@@ -310,7 +294,7 @@ p.intro {
 
 P {
     margin-bottom: 1rem;
-    margin-top: 200px;
+    
 }
 
 /*--------------------------------------------------Buttons */
