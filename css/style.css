@@ -203,6 +203,11 @@ p.refer-text {
     float: left;
 }
 
+.address-header {
+    text-align: start;
+    font-size: 33px;
+}
+
 /*--------------------------------------------------Testimonials*/
 
 .testimonial-header {
