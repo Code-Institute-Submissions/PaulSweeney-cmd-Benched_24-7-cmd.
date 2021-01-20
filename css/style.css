@@ -205,7 +205,8 @@ p.refer-text {
 
 .address-header {
     text-align: start;
-    font-size: 33px;
+    font-size: 28px;
+    margin-top: 70px;
 }
 
 .address-text {
