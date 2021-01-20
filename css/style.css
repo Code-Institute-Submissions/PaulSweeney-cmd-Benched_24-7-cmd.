@@ -270,7 +270,7 @@ div.container.media-image {
 }
 
 
-.pa-header {
+.pa-container {
     text-align: center;
     padding-bottom: 0;
     color: #4b8bb9;
@@ -278,14 +278,13 @@ div.container.media-image {
 
 
 
-div.pa-image {
-    padding-top: 115px;
-}
+
 
 .pa-intro {
     color: #4b8bb9;
     margin-top: 60px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 p.intro {
@@ -307,6 +306,10 @@ P {
 
 .rounded-circle {
     margin-bottom: 25px;
+}
+
+h3.header-padding {
+    padding-bottom: 25px;
 }
 /*--------------------------------------------------Buttons */
 
