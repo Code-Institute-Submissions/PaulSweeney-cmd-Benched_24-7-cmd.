@@ -208,6 +208,10 @@ p.refer-text {
     font-size: 33px;
 }
 
+.address-text {
+    text-align: left;
+}
+
 /*--------------------------------------------------Testimonials*/
 
 .testimonial-header {
