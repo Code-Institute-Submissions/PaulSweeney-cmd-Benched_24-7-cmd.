@@ -311,9 +311,13 @@ P {
 
 h3.header-padding {
     padding-bottom: 25px;
+    font-size: 30px;
 }
 
-
+.welcome-h4 {
+    padding-top: 25px;
+    font-size: 30px;
+}
 /*--------------------------------------------------Buttons */
 
 .btn {
