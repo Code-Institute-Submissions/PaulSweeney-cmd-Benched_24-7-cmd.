@@ -164,18 +164,20 @@ a.nav-link {
 
 /*--------------------------------------------------Jumbotron styling*/
 #content-desktop {
-    background-color: #07070794;
+    background-color: #070707a8;
+    padding: 10px;
     border-radius: 11px;
 }
 
 .home-image-text {
     margin-bottom: 1rem;
-    padding: 25px;
+    padding: 10px;
 }
 
 
 .about-gym-text {
     font-size: 24px;
+    
 }
 
 .jumbotron-refer {
