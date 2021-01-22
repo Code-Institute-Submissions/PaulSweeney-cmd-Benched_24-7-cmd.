@@ -19,7 +19,6 @@ body {
     color: #4b8bb9;
     font-size: 35px;
     letter-spacing: 2px;
-
 }
 
 .navbar-nav a {
@@ -40,7 +39,6 @@ a.nav-link {
 .navbar-brand:hover {
     color: #fafafa;
 }
-
 
 /*--------------------------------------------------Home About Us & Sportive hero image container styling */
 .home-image-container {
@@ -164,6 +162,7 @@ a.nav-link {
 }
 
 /*--------------------------------------------------Jumbotron styling*/
+
 #content-desktop {
     background-color: #070707a8;
     padding: 10px;
@@ -274,7 +273,6 @@ h4 {
     word-spacing: -1px;
 }
 
-
 /*--------------------------------------------------Media/Trainer/PA section*/
 
 div.container.media-image {
@@ -358,6 +356,7 @@ h3.header-padding {
     font-size: 19px;
     margin-bottom: 50px;
 }
+
 /*--------------------------------------------------Buttons */
 
 .btn {
@@ -440,5 +439,5 @@ button.navbar-toggler{
 }
 
 @media screen and (min-width: 641px) {
-    #nav-item {display: none;}
+    .no-desktop {display: none;}
 }
