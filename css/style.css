@@ -344,6 +344,20 @@ h3.header-padding {
     font-size: 19px;
 }
 
+.welcome-aboard-text {
+    padding-bottom: 25px;
+    color: #4b8bb9;
+    word-spacing: -1px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.welcome-message-text {
+    color: #4b8bb9;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
 /*--------------------------------------------------Buttons */
 
 .btn {
