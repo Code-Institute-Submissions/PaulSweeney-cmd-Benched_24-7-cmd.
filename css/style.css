@@ -335,14 +335,20 @@ h3.header-padding {
     padding-top: 38px;
 }
 
+.signup-disclaimer-text {
+    color: #4b8bb9;
+}
+
 .font-color {
     color: #4b8bb9;
+    font-size: 19px;
 }
 
 /*--------------------------------------------------Buttons */
 
 .btn {
     color: #4b8bb9;
+    font-weight: 600;
 }
 
 .btn:hover {
