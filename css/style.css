@@ -328,6 +328,13 @@ h3.header-padding {
     padding-top: 25px;
     font-size: 30px;
 }
+
+/*--------------------------------------------------Sign Up */
+
+.sign-up-container {
+    padding-top: 38px;
+}
+
 /*--------------------------------------------------Buttons */
 
 .btn {
