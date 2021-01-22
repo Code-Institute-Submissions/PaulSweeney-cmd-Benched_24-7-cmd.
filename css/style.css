@@ -156,7 +156,8 @@ a.nav-link {
 
 .gym-features-header {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
     color: #4b8bb9;
     letter-spacing: 1px;
     font-size: 38px;
@@ -402,8 +403,11 @@ button.navbar-toggler{
 .hide-mobile {display: none;}
 #hide-desktop {display: block;}
 .no-mobile {display: none;}
-
 }
 #content-desktop { 
     display: block;
+}
+
+@media screen and (min-width: 641px) {
+    #nav-item {display: none;}
 }
