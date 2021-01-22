@@ -19,7 +19,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item"> 
@@ -28,7 +28,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="sportive.html">Sportive Wear</a>
             </li>
-            <li id="nav-item">
+            <li class="nav-item no-desktop active">
                 <a class="nav-link" href="signup.html">Member Sign Up
                 </a>
             </li>
@@ -40,117 +40,120 @@
 </nav>
 <!--------------------------------------------------Sign Up-->
 <div class="container sign-up-container">
-<div class="row">
-<div class="col-12">
-<h4 class="welcome-aboard-text">Welcome Aboard!</h4>
-<p class="welcome-message-text">We're excited to welcome you in to our circle so that we can be there with you for every step, crunch, press and stretch of the way. See you there and thank you for choosing us to be a part of your journey! Team Benched.</p>
-</div>
-</div>
-<form>
-<div class="form-row">
-<div class="col-md-6">
-<label class="font-color" for="firstname">First Name</label>
-<input type="text" class="form-control" placeholder="">
-</div>
-<div class="form-group col-md-6">
-<label class="font-color" for="inputEmail4">Email</label>
-<input type="email" class="form-control" id="inputEmail4">
-</div>
-</div>
-<div class="form-group">
-<label class="font-color" for="inputAddress">Address</label>
-<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-</div>
-<div class="form-group">
-<label class="font-color" for="inputAddress2">Address 2</label>
-<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-</div>
-<div class="form-row">
-<div class="form-group col-md-6">
-<label class="font-color" for="inputCity">City</label>
-<input type="text" class="form-control" id="inputCity">
-</div>
-<div class="form-group col-md-4">
-<label class="font-color" for="inputState">State</label>
-<select id="inputState" class="form-control">
-<option selected>Choose...</option>
-<option>Alabama</option>
-<option>Alaska</option>
-<option>Arizona</option>
-<option>Arkansas</option>
-<option>California</option>
-<option>Colorado</option>
-<option>Connecticut</option>
-<option>Delaware</option>
-<option>Florida</option>
-<option>Georgia</option>
-<option>Hawaii</option>
-<option>Idaho</option>
-<option>Illinois</option>
-<option>Indiana</option>
-<option>Iowa</option>
-<option>Kansas</option>
-<option>Kentucky</option>
-<option>Louisisana</option>
-<option>Maine</option>
-<option>Maryland</option>
-<option>Massachussetts</option>
-<option>Michigan</option>
-<option>Minnessota</option>
-<option>Mississippi</option>
-<option>Missouri</option>
-<option>Montana</option>
-<option>Nebraska</option>
-<option>Nevada</option>
-<option>New Hampshire</option>
-<option>New Jersey</option>
-<option>New Mexico</option>
-<option>New York</option>
-<option>North Carolina</option>
-<option>North Dakota</option>
-<option>Ohio</option>
-<option>Oklahoma</option>
-<option>Oregon</option>
-<option>Pennsylvania</option>
-<option>Rhode Island</option>
-<option>South Carolina</option>
-<option>South Dakota</option>
-<option>Tennessee</option>
-<option>Texas</option>
-<option>Utah</option>
-<option>Vermont</option>
-<option>Virginia</option>
-<option>Washington</option>
-<option>West Virginia</option>
-<option>Wisconsin</option>
-<option>Wyoming</option>
-</select>
-</div>
-<div class="form-group col-md-2">
-<label class="font-color" for="inputZip">Zip</label>
-<input type="text" class="form-control" id="inputZip">
-</div>
-</div>
-<div class="form-group">
-<div class="form-check">
-<input class="form-check-input" type="checkbox" id="gridCheck">
-<label class="font-color form-check-label" for="gridCheck">
-Check me out
-</label>
-</div>
-</div>
-<button type="submit" class="btn btn-outline-secondary">Sign in</button>
-</form>
-<div class="row">
-<div class="col-12">
-<br>
-<p class="signup-disclaimer-text"> 
-As we are an independant gym please note that for security reasons we will not take payment details online, 
-this will be done at the reception. You must be over the age of 18 to join & ID will need to be produced 
-the first time you enter the gym so that we can verify your age and validate your account.
-</p>
-</div>
-</div>
+    <div class="row">
+        <div class="col-12">
+            <h4 class="welcome-aboard-text">Welcome Aboard!</h4>
+            <p class="welcome-message-text">
+                We're excited to welcome you in to our circle so that we can be there with you for every step, crunch, press and stretch of the way. 
+                See you there and thank you for choosing us to be a part of your journey! Team Benched.
+            </p>
+        </div>
+    </div>
+    <form>
+        <div class="form-row">
+            <div class="col-md-6">
+                <label class="font-color" for="firstname">Full Name</label>
+                <input type="text" class="form-control" placeholder="">
+            </div>
+            <div class="form-group col-md-6">
+                <label class="font-color" for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="font-color" for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+            <label class="font-color" for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label class="font-color" for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+                <label class="font-color" for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>Alabama</option>
+                    <option>Alaska</option>
+                    <option>Arizona</option>
+                    <option>Arkansas</option>
+                    <option>California</option>
+                    <option>Colorado</option>
+                    <option>Connecticut</option>
+                    <option>Delaware</option>
+                    <option>Florida</option>
+                    <option>Georgia</option>
+                    <option>Hawaii</option>
+                    <option>Idaho</option>
+                    <option>Illinois</option>
+                    <option>Indiana</option>
+                    <option>Iowa</option>
+                    <option>Kansas</option>
+                    <option>Kentucky</option>
+                    <option>Louisisana</option>
+                    <option>Maine</option>
+                    <option>Maryland</option>
+                    <option>Massachussetts</option>
+                    <option>Michigan</option>
+                    <option>Minnessota</option>
+                    <option>Mississippi</option>
+                    <option>Missouri</option>
+                    <option>Montana</option>
+                    <option>Nebraska</option>
+                    <option>Nevada</option>
+                    <option>New Hampshire</option>
+                    <option>New Jersey</option>
+                    <option>New Mexico</option>
+                    <option>New York</option>
+                    <option>North Carolina</option>
+                    <option>North Dakota</option>
+                    <option>Ohio</option>
+                    <option>Oklahoma</option>
+                    <option>Oregon</option>
+                    <option>Pennsylvania</option>
+                    <option>Rhode Island</option>
+                    <option>South Carolina</option>
+                    <option>South Dakota</option>
+                    <option>Tennessee</option>
+                    <option>Texas</option>
+                    <option>Utah</option>
+                    <option>Vermont</option>
+                    <option>Virginia</option>
+                    <option>Washington</option>
+                    <option>West Virginia</option>
+                    <option>Wisconsin</option>
+                    <option>Wyoming</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label class="font-color" for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="font-color form-check-label" for="gridCheck">
+                    Check me out
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-secondary">Sign in</button>
+    </form>
+    <div class="row">
+        <div class="col-12">
+            <br>
+            <p class="signup-disclaimer-text"> 
+                As we are an independant gym please note that for security reasons we will not take payment details online, 
+                this will be done at the reception. You must be over the age of 18 to join & ID will need to be produced 
+                the first time you enter the gym so that we can verify your age and validate your account.
+            </p>
+        </div>
+    </div>
 </div>
 <!--------------------------------------------------Footer section-->
 <div class="card">
