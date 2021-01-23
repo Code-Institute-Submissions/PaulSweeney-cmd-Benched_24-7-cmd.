@@ -101,9 +101,10 @@ a.nav-link {
     justify-content: center;
 }
 
+/*--------------------------------------------------Price container styling */
+
 .price-container {
     background: black;
-    height: 35;
     margin-bottom: 65px;
 }
 
@@ -120,6 +121,12 @@ a.nav-link {
 .fa-usd {
     font-size: 150px;
     color: #4b8bb9;
+}
+
+.price-text {
+    color: #fafafa;
+    font-size: 25px;
+    padding-top: 15px;
 }
 /*--------------------------------------------------General container styling */
 
@@ -429,7 +436,6 @@ button.navbar-toggler{
 .card {
     text-align: center;
     background-color: #4b8bb9;
-    margin-top: 75px;
 }
 
 
