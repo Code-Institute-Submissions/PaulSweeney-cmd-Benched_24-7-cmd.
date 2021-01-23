@@ -40,7 +40,7 @@ a.nav-link {
     color: #fafafa;
 }
 
-/*--------------------------------------------------Home About Us & Sportive hero image container styling */
+/*--------------------------------------------------Home, About Us, Sportive and hero image container styling */
 .home-image-container {
     height: 105vh;
     background: url('../images/woman-stretching.jpg') no-repeat center center;
@@ -102,9 +102,22 @@ a.nav-link {
 }
 
 .price-container {
-    background: #212529;
-    height: 45vh;
+    background: black;
+    height: 35;
     margin-bottom: 65px;
+}
+
+.col-sm-6 {
+    text-align: center;
+    
+}
+
+.fa-times-circle {
+    font-size: 150px;
+}
+
+.fa-usd {
+    font-size: 150px;
 }
 /*--------------------------------------------------General container styling */
 
