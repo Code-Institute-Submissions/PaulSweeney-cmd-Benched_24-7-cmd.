@@ -102,17 +102,10 @@ a.nav-link {
 }
 
 .price-container {
-    height: 65vh;
-    background: url('../images/black-white-images-dumbbell.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #212529;
+    height: 45vh;
+    margin-bottom: 65px;
 }
-
 /*--------------------------------------------------General container styling */
 
 .container {
