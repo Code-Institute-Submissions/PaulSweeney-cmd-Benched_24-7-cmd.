@@ -101,6 +101,18 @@ a.nav-link {
     justify-content: center;
 }
 
+.price-container {
+    height: 65vh;
+    background: url('../images/black-white-images-dumbbell.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*--------------------------------------------------General container styling */
 
 .container {
@@ -142,9 +154,7 @@ a.nav-link {
     color: #fafafa; 
 }
 
-.text-muted {
-    color: #fafafa;
-}
+
 
 .ask-us-anything-paragraph-container{
     padding-bottom: 15px;
@@ -174,6 +184,9 @@ a.nav-link {
     padding: 3px;
 }
 
+.text-muted {
+    color: #fafafa;
+}
 
 .about-gym-text {
     font-size: 24px;
@@ -423,6 +436,15 @@ button.navbar-toggler{
     font-size: 32px;
     text-align: center;
     margin-top: 0;
+}
+
+.rules-text {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+a {
+    color: #fafafa;
 }
 /*--------------------------------------------------Container media queries and styling */
 
