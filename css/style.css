@@ -304,6 +304,10 @@ div.media-body {
     font-size: 19px;
     padding-top: 13px;
 }
+
+.trainer-name {
+    padding-bottom: 7px;
+}
 /*--------------------------------------------------Gym Features */
 
 h4 {
