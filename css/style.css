@@ -308,6 +308,11 @@ h4 {
     word-spacing: -1px;
 }
 
+.fa-lg {
+    padding-right: 7px;
+}
+
+
 /*--------------------------------------------------Media/Trainer/PA section*/
 
 div.container.media-image {
