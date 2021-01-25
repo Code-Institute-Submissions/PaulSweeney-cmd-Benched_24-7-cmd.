@@ -40,6 +40,10 @@ a.nav-link {
     color: #fafafa;
 }
 
+.fa-bars {
+    color: #fafafa;
+    font-size: 30px;
+}
 /*--------------------------------------------------Home, About Us, Sportive and hero image container styling */
 .home-image-container {
     height: 105vh;
