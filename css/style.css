@@ -29,9 +29,11 @@ a.nav-link {
     color: #fafafa;
     font-size: 31px;
 }
+
 .nav-link:hover {
     color: #4b8bb9;
 }
+
 .active a {
     color: #4b8bb9;
 }
@@ -53,7 +55,7 @@ button:focus {
     border: 2px solid #4b8bb9;
 }
 
-/*--------------------------------------------------Home, About Us, Sportive and hero image container styling */
+/*--------------------------------------------------Home, About Us, Sportive hero image container styling */
 .home-image-container {
     height: 105vh;
     background: url('../images/woman-stretching.jpg') no-repeat center center;
@@ -150,6 +152,10 @@ button:focus {
 
 /*--------------------------------------------------Ask Us container styling */
 
+.container-background {
+    background-color: black;
+}
+
 .ask-us-anything-header {
     text-align: center;
     padding-top: 25px;
@@ -158,12 +164,12 @@ button:focus {
     font-size: 38px;
 }
 
-.container-background {
-    background-color: black;
-}
-
 .ask-us-anything-header h4 {
     color: #fafafa;
+}
+
+.ask-us-anything-paragraph-container{
+    padding-bottom: 15px;
 }
 
 .blockquote h5 {
@@ -174,15 +180,18 @@ button:focus {
     color: #fafafa; 
 }
 
-
-
-.ask-us-anything-paragraph-container{
-    padding-bottom: 15px;
-}
-
-/*--------------------------------------------------Gym features styling*/
+/*--------------------------------------------------Gym features & Facilities*/
 
 .gym-features-header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #4b8bb9;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+
+.gym-facilities-header {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
@@ -194,6 +203,13 @@ button:focus {
 .fa-lg {
     color: #4b8bb9;
     padding-right: 5px;
+}
+
+h4 {
+    padding-bottom: 25px;
+    color: #4b8bb9;
+    word-spacing: -1px;
+    text-align: center;
 }
 
 /*--------------------------------------------------Jumbotron styling*/
@@ -302,14 +318,6 @@ div.media-body {
 .trainer-story {
     font-size: 19px;
     padding-top: 13px;
-}
-/*--------------------------------------------------Gym Features */
-
-h4 {
-    padding-bottom: 25px;
-    color: #4b8bb9;
-    word-spacing: -1px;
-    text-align: center;
 }
 
 /*--------------------------------------------------Media/Trainer/PA section*/
