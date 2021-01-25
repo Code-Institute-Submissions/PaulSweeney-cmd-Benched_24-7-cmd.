@@ -178,6 +178,11 @@ a.nav-link {
     font-size: 38px;
 }
 
+.fa-lg {
+    color: #4b8bb9;
+    padding-right: 5px;
+}
+
 /*--------------------------------------------------Jumbotron styling*/
 
 #content-desktop {
