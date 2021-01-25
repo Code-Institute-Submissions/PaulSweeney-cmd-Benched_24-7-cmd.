@@ -88,6 +88,107 @@ button:focus {
     text-align: center;
 }
 
+/*--------------------------------------------------Member Testimonials*/
+
+.testimonial-header {
+    font-family: 'Abel', sans-serif;
+    color: #4b8bb9;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+.member-story {
+    font-size: 19px;
+    padding-top: 13px;
+}
+
+.h2, h2 {
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+.rounded-circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------Refer Us image */
+.refer-container {
+    height: 65vh;
+    background: url('../images/dumbell.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-refer {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*--------------------------------------------------Gym features*/
+
+.gym-features-header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #4b8bb9;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+
+.fa-lg {
+    color: #4b8bb9;
+    padding-right: 5px;
+}
+
+h4 {
+    padding-bottom: 25px;
+    color: #4b8bb9;
+    word-spacing: -1px;
+    text-align: center;
+}
+/*--------------------------------------------------Price container styling */
+
+.price-container {
+    background: black;
+    margin-bottom: 65px;
+}
+
+.col-sm-6 {
+    text-align: center;
+    
+}
+
+.fa-times-circle {
+    font-size: 150px;
+    color: #4b8bb9;
+    margin-top: 19px;
+}
+
+.fa-usd {
+    font-size: 150px;
+    color: #4b8bb9;
+    margin-top: 19px;
+}
+
+.price-text {
+    color: #fafafa;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.text-bottom {
+    color: #fafafa;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
 /*--------------------------------------------------About Us main image*/
 
 .gym-container {
@@ -131,21 +232,18 @@ button:focus {
     justify-content: center;
 }
 
-/*--------------------------------------------------Refer Us image */
-.refer-container {
-    height: 65vh;
-    background: url('../images/dumbell.jpg') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.jumbotron {
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
 }
 
-.jumbotron-refer {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
+.benched-text {
+    padding-top: 25px;
 }
+
 
 /*--------------------------------------------------Address image */
 
@@ -168,40 +266,7 @@ button:focus {
     text-align: left;
 }
 
-/*--------------------------------------------------Price container styling */
 
-.price-container {
-    background: black;
-    margin-bottom: 65px;
-}
-
-.col-sm-6 {
-    text-align: center;
-    
-}
-
-.fa-times-circle {
-    font-size: 150px;
-    color: #4b8bb9;
-}
-
-.fa-usd {
-    font-size: 150px;
-    color: #4b8bb9;
-}
-
-.price-text {
-    color: #fafafa;
-    font-size: 25px;
-    padding-top: 15px;
-}
-
-.text-bottom {
-    color: #fafafa;
-    font-size: 25px;
-    padding-top: 15px;
-    padding-bottom: 25px;
-}
 
 /*--------------------------------------------------General container styling */
 
@@ -212,10 +277,6 @@ button:focus {
 
 .text-container {
     background-color: #4b8bb9;
-}
-
-.collaboration-text {
-    padding-bottom: 0;
 }
 
 /*--------------------------------------------------Ask Us Section*/
@@ -252,16 +313,7 @@ button:focus {
     color: #fafafa;
 }
 
-/*--------------------------------------------------Gym features & Facilities*/
-
-.gym-features-header {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    color: #4b8bb9;
-    letter-spacing: 1px;
-    font-size: 38px;
-}
+/*--------------------------------------------------Gym Facilities*/
 
 .gym-facilities-header {
     text-align: center;
@@ -284,31 +336,6 @@ h4 {
     text-align: center;
 }
 
-/*--------------------------------------------------Member Testimonials*/
-
-.testimonial-header {
-    font-family: 'Abel', sans-serif;
-    color: #4b8bb9;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 10px;
-    padding-top: 30px;
-}
-
-.member-story {
-    font-size: 19px;
-    padding-top: 13px;
-}
-
-.h2, h2 {
-    font-size: 38px;
-    letter-spacing: 1px;
-}
-
-.rounded-circle {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 /*--------------------------------------------------Trainer section*/
 
