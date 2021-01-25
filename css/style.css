@@ -55,7 +55,7 @@ button:focus {
     border: 2px solid #4b8bb9;
 }
 
-/*--------------------------------------------------Home main image */
+/*--------------------------------------------------Home main image*/
 
 .home-image-container {
     height: 105vh;
@@ -115,7 +115,7 @@ button:focus {
     margin-bottom: 10px;
 }
 
-/*--------------------------------------------------Refer Us image */
+/*--------------------------------------------------Refer Us image*/
 .refer-container {
     height: 65vh;
     background: url('../images/dumbell.jpg') no-repeat center center;
@@ -153,7 +153,7 @@ h4 {
     word-spacing: -1px;
     text-align: center;
 }
-/*--------------------------------------------------Price container styling */
+/*--------------------------------------------------Price container styling*/
 
 .price-container {
     background: black;
@@ -250,7 +250,7 @@ h4 {
     padding-top: 25px;
 }
 
-/*--------------------------------------------------Address image */
+/*--------------------------------------------------Address image*/
 
 .address-container {
     height: 65vh;
@@ -310,7 +310,7 @@ h4 {
 .gym-facilities-header {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 25px; 
     color: #4b8bb9;
     letter-spacing: 1px;
     font-size: 38px;
@@ -368,7 +368,7 @@ p.intro {
     padding-top: 5px;
 }
 
-/*--------------------------------------------------Sign Up */
+/*--------------------------------------------------Sign Up*/
 
 .sign-up-container {
     padding-top: 38px;
@@ -398,7 +398,7 @@ p.intro {
     margin-bottom: 50px;
 }
 
-/*--------------------------------------------------Buttons */
+/*--------------------------------------------------Buttons*/
 
 .btn {
     color: #4b8bb9;
