@@ -44,6 +44,12 @@ a.nav-link {
     color: #fafafa;
     font-size: 30px;
 }
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    border: 2px solid #4b8bb9;
+}
+
+
 /*--------------------------------------------------Home, About Us, Sportive and hero image container styling */
 .home-image-container {
     height: 105vh;
