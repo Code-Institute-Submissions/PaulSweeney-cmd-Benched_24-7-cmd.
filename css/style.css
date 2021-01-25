@@ -334,7 +334,8 @@ P {
 }
 
 .rounded-circle {
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h3.header-padding {
