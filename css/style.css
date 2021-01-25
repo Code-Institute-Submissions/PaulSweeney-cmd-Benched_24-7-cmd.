@@ -4,7 +4,7 @@ body {
     
 }
 
-/*--------------------------------------------------Navbar styling */
+/*--------------------------------------------------Navbar*/
 .navbar {
     background-color: black;
 }
@@ -55,7 +55,7 @@ button:focus {
     border: 2px solid #4b8bb9;
 }
 
-/*--------------------------------------------------Home, About Us, Sportive hero image container styling */
+/*--------------------------------------------------Home main image */
 .home-image-container {
     height: 105vh;
     background: url('../images/woman-stretching.jpg') no-repeat center center;
@@ -65,14 +65,20 @@ button:focus {
     justify-content: center;
 }
 
-.refer-container {
-    height: 65vh;
-    background: url('../images/dumbell.jpg') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.home-image-text {
+    margin-bottom: 1rem;
+    padding: 3px;
 }
+
+.jumbotron {
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+}
+
+/*--------------------------------------------------About Us main image*/
 
 .gym-container {
     height: 105vh;
@@ -83,6 +89,19 @@ button:focus {
     justify-content: center;
 }
 
+.about-gym-text {
+    font-size: 24px;  
+}
+
+.jumbotron {
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+}
+/*--------------------------------------------------Sportive main image*/
+
 .sportive-container {
     height: 105vh;
     background: url('../images/ropes.jpg') no-repeat center center;
@@ -92,7 +111,27 @@ button:focus {
     justify-content: center;
 }
 
-.countdown-container {
+/*--------------------------------------------------Refer Us image */
+.refer-container {
+    height: 65vh;
+    background: url('../images/dumbell.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-refer {
+    font-family:'Abel', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+}
+
+/*--------------------------------------------------Address image */
+
+.address-container {
     height: 65vh;
     background: url('../images/sportive-man-dumbbell.jpg') no-repeat center center;
     background-size: cover;
@@ -101,6 +140,15 @@ button:focus {
     justify-content: center;
 }
 
+.address-header {
+    text-align: start;
+    font-size: 28px;
+    margin-top: 70px;
+}
+
+.address-text {
+    text-align: left;
+}
 /*--------------------------------------------------Price container styling */
 
 .price-container {
@@ -180,6 +228,10 @@ button:focus {
     color: #fafafa; 
 }
 
+.text-muted {
+    color: #fafafa;
+}
+
 /*--------------------------------------------------Gym features & Facilities*/
 
 .gym-features-header {
@@ -220,54 +272,18 @@ h4 {
     border-radius: 11px;
 }
 
-.home-image-text {
-    margin-bottom: 1rem;
-    padding: 3px;
-}
 
-.text-muted {
-    color: #fafafa;
-}
 
-.about-gym-text {
-    font-size: 24px;
-    
-}
 
-.jumbotron-refer {
-    font-family:'Abel', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    background-color: transparent;
-    text-align: center;
-}
 
-.jumbotron {
-    font-family: 'Abel', sans-serif;
-    font-size: 22px;
-    color: #fff;
-    background-color: transparent;
-    text-align: center;
-}
 
-p.refer-text {
-    margin-top: 0;
-}
 
-.deadline-text {
-    font-size: 30px;
-    float: left;
-}
 
-.address-header {
-    text-align: start;
-    font-size: 28px;
-    margin-top: 70px;
-}
 
-.address-text {
-    text-align: left;
-}
+
+
+
+
 
 /*--------------------------------------------------Testimonials*/
 
@@ -294,7 +310,6 @@ p.refer-text {
     font-size: 38px;
     letter-spacing: 1px;
 }
-
 
 .i {
     padding-bottom: 30px;
