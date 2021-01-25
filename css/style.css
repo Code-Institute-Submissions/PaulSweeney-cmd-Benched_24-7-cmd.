@@ -1,7 +1,6 @@
 body {
     font-family: 'Abel', sans-serif;
     background-color: #fafafa;
-    
 }
 
 /*--------------------------------------------------Navbar*/
@@ -56,6 +55,7 @@ button:focus {
 }
 
 /*--------------------------------------------------Home main image */
+
 .home-image-container {
     height: 105vh;
     background: url('../images/woman-stretching.jpg') no-repeat center center;
@@ -75,6 +75,16 @@ button:focus {
     font-size: 22px;
     color: #fff;
     background-color: transparent;
+    text-align: center;
+}
+
+#content-desktop {
+    background-color: #070707a8;
+    padding: 10px;
+    border-radius: 11px;
+}
+
+.home-media {
     text-align: center;
 }
 
@@ -100,6 +110,16 @@ button:focus {
     background-color: transparent;
     text-align: center;
 }
+
+#content-desktop {
+    background-color: #070707a8;
+    padding: 10px;
+    border-radius: 11px;
+}
+
+.about-media {
+    text-align: center;
+}
 /*--------------------------------------------------Sportive main image*/
 
 .sportive-container {
@@ -122,11 +142,9 @@ button:focus {
 }
 
 .jumbotron-refer {
-    font-family:'Abel', sans-serif;
-    font-size: 18px;
-    color: #fff;
-    background-color: transparent;
+    color: #fafafa;
     text-align: center;
+    font-size: 18px;
 }
 
 /*--------------------------------------------------Address image */
@@ -149,6 +167,7 @@ button:focus {
 .address-text {
     text-align: left;
 }
+
 /*--------------------------------------------------Price container styling */
 
 .price-container {
@@ -183,6 +202,7 @@ button:focus {
     padding-top: 15px;
     padding-bottom: 25px;
 }
+
 /*--------------------------------------------------General container styling */
 
 .container {
@@ -198,7 +218,7 @@ button:focus {
     padding-bottom: 0;
 }
 
-/*--------------------------------------------------Ask Us container styling */
+/*--------------------------------------------------Ask Us Section*/
 
 .container-background {
     background-color: black;
@@ -264,28 +284,7 @@ h4 {
     text-align: center;
 }
 
-/*--------------------------------------------------Jumbotron styling*/
-
-#content-desktop {
-    background-color: #070707a8;
-    padding: 10px;
-    border-radius: 11px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------------------------------Testimonials*/
+/*--------------------------------------------------Member Testimonials*/
 
 .testimonial-header {
     font-family: 'Abel', sans-serif;
@@ -301,22 +300,14 @@ h4 {
     padding-top: 13px;
 }
 
-.media {
-    margin-top: 40px;
-    
-}
-
 .h2, h2 {
     font-size: 38px;
     letter-spacing: 1px;
 }
 
-.i {
-    padding-bottom: 30px;
-}
-
-div.media-body {
-    margin-bottom: 0;
+.rounded-circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*--------------------------------------------------Trainer section*/
@@ -335,13 +326,12 @@ div.media-body {
     padding-top: 13px;
 }
 
-/*--------------------------------------------------Media/Trainer/PA section*/
-
-div.container.media-image {
-    margin-bottom: 25px;
-    margin-top: 15px;
+.rounded-circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/*--------------------------------------------------PA section*/
 
 .pa-container {
     text-align: center;
@@ -350,44 +340,14 @@ div.container.media-image {
     margin-top: 25px;
 }
 
-.pa-intro {
-    color: #4b8bb9;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    text-align: center;
-}
-
-p.intro {
-    font-size: 22px;
-    padding-top: 5px;
-}
-
-P {
-    margin-bottom: 1rem;
-    
-}
-
-.about-media {
-    text-align: center;
-}
-
-.home-media {
-    text-align: center;
-}
-
 .rounded-circle {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-h3.header-padding {
-    padding-bottom: 5px;
-    font-size: 30px;
-}
-
-.welcome-h4 {
-    padding-top: 25px;
-    font-size: 30px;
+p.intro {
+    font-size: 22px;
+    padding-top: 5px;
 }
 
 /*--------------------------------------------------Sign Up */
@@ -468,7 +428,6 @@ button.navbar-toggler{
     text-align: center;
     background-color: #4b8bb9;
 }
-
 
 .card-header {
     padding-bottom: 25px;
