@@ -44,61 +44,31 @@ a.nav-link {
 .home-image-container {
     height: 105vh;
     background: url('../images/woman-stretching.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .refer-container {
-    height: 65vh;
+    height: 55vh;
     background: url('../images/dumbell.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .gym-container {
     height: 105vh;
     background: url('../images/gym-floor.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .sportive-container {
     height: 105vh;
     background: url('../images/ropes.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .countdown-container {
     height: 65vh;
     background: url('../images/sportive-man-dumbbell.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /*--------------------------------------------------Price container styling */
@@ -176,8 +146,6 @@ a.nav-link {
     color: #fafafa; 
 }
 
-
-
 .ask-us-anything-paragraph-container{
     padding-bottom: 15px;
 }
@@ -199,6 +167,7 @@ a.nav-link {
     background-color: #070707a8;
     padding: 10px;
     border-radius: 11px;
+    margin-top: 200px;
 }
 
 .home-image-text {
@@ -232,7 +201,7 @@ a.nav-link {
 }
 
 p.refer-text {
-    margin-top: 0;
+    padding-top: 150px;
 }
 
 .deadline-text {
@@ -498,6 +467,7 @@ a {
 .hide-mobile {display: none;}
 #hide-desktop {display: block;}
 .no-mobile {display: none;}
+p.refer-text {padding-top: 50px;}
 }
 #content-desktop { 
     display: block;
