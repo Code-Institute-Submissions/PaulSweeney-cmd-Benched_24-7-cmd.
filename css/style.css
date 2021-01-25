@@ -50,7 +50,8 @@ button:focus {
     outline: none;
 }
 
-.navbar-toggler:focus, .navbar-toggler:hover {
+.navbar-toggler:focus, 
+.navbar-toggler:hover {
     border: 2px solid #4b8bb9;
 }
 
@@ -220,8 +221,9 @@ h4 {
 
 .about-media {
     text-align: center;
+    padding-bottom: 25px;
 }
-/*--------------------------------------------------Sportive main image*/
+/*--------------------------------------------------Sportive*/
 
 .sportive-container {
     height: 105vh;
@@ -240,10 +242,13 @@ h4 {
     text-align: center;
 }
 
+.text-container {
+    background-color: #4b8bb9;
+}
+
 .benched-text {
     padding-top: 25px;
 }
-
 
 /*--------------------------------------------------Address image */
 
@@ -266,23 +271,11 @@ h4 {
     text-align: left;
 }
 
-
-
-/*--------------------------------------------------General container styling */
-
-.container {
-    align-items: center;
-    padding-bottom: 23px;
-}
-
-.text-container {
-    background-color: #4b8bb9;
-}
-
 /*--------------------------------------------------Ask Us Section*/
 
 .container-background {
     background-color: black;
+    padding-bottom: 25px;
 }
 
 .ask-us-anything-header {
