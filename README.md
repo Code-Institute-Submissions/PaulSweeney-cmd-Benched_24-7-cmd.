@@ -67,6 +67,4 @@ The aim to retain current members and attract new members is for the gym to have
 * I would like to find out about any personal trainers available within the business.
 * I would like to know the location of the premises in the event of joining up.
 
-### B - Result:
-
 
