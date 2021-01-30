@@ -36,9 +36,14 @@ The aim to retain current members and attract new members is for the gym to have
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## 2. Libararies, Frameworks & Additional Programmes:
+* [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/): The Font Awesome library was used throughout the design to add responsive and unresponsive icons for a positive user experience.
+* [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/): The Bootstrap grid system was used for the layout as well as additional forms, responsiveness and website styling.
 * [Google Fonts](https://fonts.google.com/): Google Fonts was used to import the Abel Family & Open Sans Condensed font style throughout my design.
-* [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/): The Fone Awesome library was used throughout the design to add responsive and unresponsive icons for a positive user experience.
-* [Boot strap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Shutterstock](https://www.shutterstock.com/): Shutterstock was used for its array of useful media images that fit well within the design of the site.
+* [Balsamiq](https://balsamiq.com/): I used Balsamiq for my website frameworks.
+* [GitHub](https://github.com/): GitHub was used to store all of my pushed code after completion to prevent loss through site crashes or otherwise.
+* [jQuery](https://jquery.com/): jQuery was installed to enable my NavBar to become responsive when used in mobile format.
+* [Git](https://git-scm.com/): Git was used for version control and to make good use of my git pod terminal to push my code from Git to GitHub.
 
 
  
