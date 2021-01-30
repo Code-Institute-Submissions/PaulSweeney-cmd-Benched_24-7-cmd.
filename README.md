@@ -12,7 +12,8 @@ The aim to retain current members and attract new members is for the gym to have
 * As a potential new gym member, I want to see testimonials / feedback from current members before I invest.
 ## 2.  Returning Visitor Goals:
 * I would like to be able to contact the gym incase I have any further questions or concerns.
-* I would like to find out about any cureent personal trainers and their contact details incase I want to book a session.
+* I would like to find out about any personal trainers available within the business.
+* I would like to know the location of the premises in the event of joining up.
 ## 3. Frequent Visitor Goals: 
 * I would like to check the site for any updates on the collaboration competition featured.
 * I would like to see any upcoming personal appearances from Models/Fitness Influencers
@@ -20,7 +21,7 @@ The aim to retain current members and attract new members is for the gym to have
 
 # - Design
 ## 1. Colour Scheme
-* The colour scheme for the design consist of blacks, blues and whites. I based these choices on the colour scheme featured in the home page hero image. I beleive they go very well together and give the site a professional look. 
+* The colour scheme for the design consist of blacks, blues and whites. I based these choices on the colour scheme featured in the home page hero image. I believe they go very well together and give the site a professional look. 
 
 ## 2. Typography
 * I chose to use the Abel Family & Open Sans Condensed fonts with the Sans-Serif font as the fallback incase of any issues. The fonts i chose seem to fit well with the flow of the page and they compliment the colour scheme very well.
@@ -38,6 +39,7 @@ The aim to retain current members and attract new members is for the gym to have
 ## 2. Libararies, Frameworks & Additional Programmes:
 * [Font Awesome 4.7.0](https://fontawesome.com/v4.7.0/): The Font Awesome library was used throughout the design to add responsive and unresponsive icons for a positive user experience.
 * [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/): The Bootstrap grid system was used for the layout as well as additional forms, responsiveness and website styling.
+* [Microsoft Word](https://www.microsoft.com/): I used the Microsoft Word programme to create my Rules & Regulations document which appears in a seperate window when the hyperlink is clicked.
 * [Google Fonts](https://fonts.google.com/): Google Fonts was used to import the Abel Family & Open Sans Condensed font style throughout my design.
 * [Shutterstock](https://www.shutterstock.com/): Shutterstock was used for its array of useful media images that fit well within the design of the site.
 * [Balsamiq](https://balsamiq.com/): I used Balsamiq for my website frameworks.
@@ -45,7 +47,26 @@ The aim to retain current members and attract new members is for the gym to have
 * [jQuery](https://jquery.com/): jQuery was installed to enable my NavBar to become responsive when used in mobile format.
 * [Git](https://git-scm.com/): Git was used for version control and to make good use of my git pod terminal to push my code from Git to GitHub.
 
+# - Site Testing
+## 1. Code checking & validation 
+* I validated all four pages of my HTML code using the [W3C HTML Markup Validation Service](https://validator.w3.org/) and my CSS code by using the [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/).
+## 2. User story testing and results
+###  A - First Time Visitor Goals:
+* As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers.
+* I want to navigate easily throught the content.
+* As a potential new gym member, I want to see testimonials / feedback from current members before I invest.
+### B - Result:
+* Upon first entering the site, for a 24 hour independant gym you can see a lot of effort has gone into the design - this shows the owners attention to detail. This gives the end user a positive impression that the owners care about the business.
+* The nav bar stands out due to the colour scheme which enables easy navigation, the first few scrolls brings the user to the member testimonial section which is both informative and inviting. 
+* The layout of the site is spacious and simple, allowing the user to avoid being distacted by too much information.
+* The membership promotional incentive is situated within an image which fits well within both the color scheme and design.
+* The collaboration page can be easily found within the nav bar which brings the first time user to the campaign page, this instantly makes the business unique as this is not something an end user would have come across before.
 
- 
+### A - Returning Visitor Goals:
+* I would like to be able to contact the gym incase I have any further questions or concerns.
+* I would like to find out about any personal trainers available within the business.
+* I would like to know the location of the premises in the event of joining up.
+
+### B - Result:
 
 
