@@ -51,20 +51,39 @@ The aim to retain current members and attract new members is for the gym to have
 ## 1. Code checking & validation 
 * I validated all four pages of my HTML code using the [W3C HTML Markup Validation Service](https://validator.w3.org/) and my CSS code by using the [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/).
 ## 2. User story testing and results
+
 ###  A - First Time Visitor Goals:
-* As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers.
+* As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers or otherwise.
 * I want to navigate easily throught the content.
 * As a potential new gym member, I want to see testimonials / feedback from current members before I invest.
+
 ### B - Result:
 * Upon first entering the site, for a 24 hour independant gym you can see a lot of effort has gone into the design - this shows the owners attention to detail. This gives the end user a positive impression that the owners care about the business.
 * The nav bar stands out due to the colour scheme which enables easy navigation, the first few scrolls brings the user to the member testimonial section which is both informative and inviting. 
 * The layout of the site is spacious and simple, allowing the user to avoid being distacted by too much information.
-* The membership promotional incentive is situated within an image which fits well within both the color scheme and design.
+* The membership discount promotional incentive is situated within an image which fits well within both the color scheme and design.
 * The collaboration page can be easily found within the nav bar which brings the first time user to the campaign page, this instantly makes the business unique as this is not something an end user would have come across before.
 
 ### A - Returning Visitor Goals:
 * I would like to be able to contact the gym incase I have any further questions or concerns.
 * I would like to find out about any personal trainers available within the business.
-* I would like to know the location of the premises in the event of joining up.
+* I would like to know the location of the premises and the owner contact details in the event of joining up.
+
+### B - Result:
+* The contact form is located within the about us page which is where I as an end user would expect the contact form to be.
+* The gym has 3 personal trainers available and their short story is really informative to me as an end user as I know what their principles and intentions are for their clients, rather than just a short introduction.
+* The address and contact details are found together in one section.
+
+### A - Frequent Visitor Goals:
+
+* I would like to check the site for any updates on the collaboration competition featured.
+* I would like to see any upcoming personal appearances from Models/Fitness Influencers
+* I would like to check if there are any changes to company policy and procedure regarding COVID-19 restrictions or otherwise.
+
+### B - Result: 
+
+* The collaboration information located on page 3 shows the updated deadline for submission at the bottom of the section.
+* The page has a dedicated section for each PA (Personal Appearance) announced, I enjoyed how the section is laid out in regards to imagery and information. 
+* A hyperlink is found inside the footer on each page which opens up a seperate browser window detailing the gyms policies and procedures, the colour scheme of that documentation matches the site which I found to tie in well.
 
 
