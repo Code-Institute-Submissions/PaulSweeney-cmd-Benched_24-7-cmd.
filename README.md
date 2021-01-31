@@ -48,9 +48,9 @@ The aim to retain current members and attract new members is for the gym to have
 * [Git](https://git-scm.com/): Git was used for version control and to make good use of my git pod terminal to push my code from Git to GitHub.
 
 # - Site Testing
-## 1. Code checking & validation 
+## 1. Code checking & validation.
 * I validated all four pages of my HTML code using the [W3C HTML Markup Validation Service](https://validator.w3.org/) and my CSS code by using the [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/).
-## 2. User story testing and results
+## 2. User story testing and results.
 
 ###  A - First Time Visitor Goals:
 * As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers or otherwise.
@@ -86,4 +86,13 @@ The aim to retain current members and attract new members is for the gym to have
 * The page has a dedicated section for each PA (Personal Appearance) announced, I enjoyed how the section is laid out in regards to imagery and information. 
 * A hyperlink is found inside the footer on each page which opens up a seperate browser window detailing the gyms policies and procedures, the colour scheme of that documentation matches the site which I found to tie in well.
 
+## 3. Devices and Browsers.
 
+* [Google Chrome](https://www.google.co.uk/chrome), [FireFox](https://www.mozilla.org/en-GB/firefox/new/) & [Microsoft Edge](https://www.microsoft.com/en-us/edge) were the browsers used for desktop testing. All of which showed no performance flaws or new windows opened when links were clicked. 
+* I used an old iPhone 5 to test my site using [Safari](https://www.apple.com/uk/safari/) as well as a Samsung Galaxy A21s to test the site on a bigger screen. Both of which showed no distortion or stretched / pixelated imagery.
+
+## 4. Third Party end user testing.
+
+* I decided to test my site on a number of colleagues and family members which I advised to act as mutual parties for genuine feedback. Most found the site to be professional, the negative feedback I recieved was regarding the Trainer and Member images not sitting evenly between their name and paragraph text. This has since been rectified and further details are explained in the 'Bugs & Fixes' section.
+
+## 5. Bugs & Fixes.
