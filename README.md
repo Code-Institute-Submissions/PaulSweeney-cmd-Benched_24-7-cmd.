@@ -108,6 +108,7 @@ The aim to retain current members and attract new members is for the gym to have
 * The idea for the general site layout including the media image layout and HTML references were taken from the Whiskey Drop site project lead by Matt Rudge from [Code Institute](https://codeinstitute.net/)
 * The images were sourced from [Shutterstock](https://www.shutterstock.com/)
 
-### Aknowledgments:
+### Aknowledgements:
 * The NavBar active psuedo issue was discussed by call with JimLynx_lead on Slack.
-* [Stack Overflow](https://stackoverflow.com/) was used to source the psuedo classes.
+* [Stack Overflow](https://stackoverflow.com/) was used to source the psuedo classes for the NavBar and the media queries for hiding the jumbotron text in different screen widths.
+* My Git commits were structured on the examples used in the article that can be found [here](https://dev.to/chrissiemhrk/git-commit-message-5e21).
