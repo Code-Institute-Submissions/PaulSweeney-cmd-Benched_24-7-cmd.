@@ -96,3 +96,18 @@ The aim to retain current members and attract new members is for the gym to have
 * I decided to test my site on a number of colleagues and family members which I advised to act as mutual parties for genuine feedback. Most found the site to be professional, the negative feedback I recieved was regarding the Trainer and Member images not sitting evenly between their name and paragraph text. This has since been rectified and further details are explained in the 'Bugs & Fixes' section.
 
 ## 5. Bugs & Fixes.
+
+1. NavBar links would not stay on another color when the active psuedo-class was introduced to my CSS file. This was rectified by removing the bg-dark and bg-light inline Bootstrap classes. Bootstrap had to be overidden.
+2. NavBar color of black was removed when the inline bg-dark & bg-light inline classes were removed. This was resolved by creating a new CSS .navbar class and then styled with colour choice.
+3. Media images and text for the Trainer and Member testimonial sections became disloged from their positioning when viewed on a mobile device. I removed the position:absolute from the .rounded-circle class and moved the images between the name header and the paragraph class and gave them a top and bottom margin to allow better positioning when viewed on a mobile device.
+4. The jumbotron text on page 1 and 2 weren't centered within the image when moz, webkit & O prefixes were removed as I had sourced the hero image code from the Whisky Drop project. I had also accidentally removed the flex display, align item and justify content properties, which were restored. This then rectified the issue.
+
+# Credits & Aknowledgements.
+### Credits:
+
+* The idea for the general site layout including the media image layout and HTML references were taken from the Whiskey Drop site project lead by Matt Rudge from [Code Institute](https://codeinstitute.net/)
+* The images were sourced from [Shutterstock](https://www.shutterstock.com/)
+
+### Aknowledgments:
+* The NavBar active psuedo issue was discussed by call with JimLynx_lead on Slack.
+* [Stack Overflow](https://stackoverflow.com/) was used to source the psuedo classes.
