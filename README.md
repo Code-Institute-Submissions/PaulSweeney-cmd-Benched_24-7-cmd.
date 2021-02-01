@@ -1,4 +1,4 @@
-# Paul Sweeney - MS1 Project - Benched 24/7
+# [Paul Sweeney - MS1 Project - Benched 24/7](https://paulsweeney-cmd.github.io/Benched_24-7-cmd./)
 This is my website for a fictional 24-hour gym. I put myself in the end users' position, so I created this site based on my own experiences when looking for a new gym to join.
 
 # Business Goals
@@ -25,7 +25,7 @@ The aim to retain current members and attract new members is for the gym to have
 * The colour scheme for the design consists of blacks, blues and whites. I based these choices on the colour scheme featured in the home page hero image. I believe they go very well together and give the site a professional look. 
 
 ## 2. Typography
-* I chose to use the Abel Family & Open Sans Condensed fonts with the Sans-Serif font as the fallback incase of any issues. The fonts i chose seem to fit well with the flow of the page and they compliment the colour scheme very well.
+* I chose to use the Abel Family font with the Sans-Serif font as the fallback incase of any issues. The fonts i chose seem to fit well with the flow of the page and they compliment the colour scheme very well.
 
 ## 3. Imagery
 * I spent some time trying to work out not only what imagery I should use for the layout, but the color scheme and choice of background noise. 
