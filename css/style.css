@@ -105,9 +105,11 @@ button:focus {
     padding-top: 13px;
 }
 
-.h2, h2 {
+.training-header {
     font-size: 38px;
     letter-spacing: 1px;
+    color: black;
+    text-transform: uppercase;
 }
 
 .rounded-circle {
