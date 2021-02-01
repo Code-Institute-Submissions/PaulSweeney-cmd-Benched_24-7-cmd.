@@ -110,13 +110,6 @@ button:focus {
     padding-top: 13px;
 }
 
-.training-header {
-    font-size: 38px;
-    letter-spacing: 1px;
-    color: black;
-    text-transform: uppercase;
-}
-
 .rounded-circle {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -339,16 +332,23 @@ h4 {
 
 .trainer-header {
     font-family: 'Abel', sans-serif;
-    color: var(--smooth-blue);
     text-align: center;
     margin-top: 10px;
     font-size: 10px;
     padding-top: 30px;
 }
 
+.training-header {
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: var(--smooth-blue);
+    text-transform: uppercase;
+}
+
 .trainer-story {
     font-size: 19px;
     padding-top: 13px;
+    color: var(--smooth-blue);
 }
 
 .rounded-circle {
@@ -358,7 +358,7 @@ h4 {
 
 .trainer-contact {
     font-size: 17px;
-    color: black;
+    color: var(--smooth-blue);
 }
 
 /*--------------------------------------------------PA section*/
