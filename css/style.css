@@ -329,36 +329,42 @@ h4 {
 }
 
 /*--------------------------------------------------Trainer section*/
-
-.trainer-header {
-    font-family: 'Abel', sans-serif;
+.image-align {
     text-align: center;
-    margin-top: 10px;
-    font-size: 10px;
-    padding-top: 30px;
 }
 
 .training-header {
+    font-family: 'Abel', sans-serif;
     font-size: 38px;
     letter-spacing: 1px;
     color: var(--smooth-blue);
     text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .trainer-story {
     font-size: 19px;
     padding-top: 13px;
     color: var(--smooth-blue);
+    text-align: center;
 }
 
-.rounded-circle {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.trainer-name {
+    color: var(--smooth-blue);
+    text-align: center;
 }
 
 .trainer-contact {
     font-size: 17px;
     color: var(--smooth-blue);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.rounded-circle {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*--------------------------------------------------PA section*/
