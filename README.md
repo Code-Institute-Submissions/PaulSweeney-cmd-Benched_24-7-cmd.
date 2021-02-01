@@ -1,13 +1,13 @@
-# Paul Sweeney - MS1 Project - Benched 24/7.
-This is my website for a fictional 24 hour gym. I put myself in the end users position, so I created this site based on my own experiences when looking for a new gym to join.
+# Paul Sweeney - MS1 Project - Benched 24/7
+This is my website for a fictional 24-hour gym. I put myself in the end users' position, so I created this site based on my own experiences when looking for a new gym to join.
 
-# - Business Goal.
+# Business Goals
 The aim to retain current members and attract new members is for the gym to have a partnership with a sportswear brand to scout potential models for an ever-growing sportwear brand "SportiveWear" to become an ambassador for the gym and the brand. I combined two of the most most relatable markets to each other, gyms and sportswear. I've found this to be a potential opportunity for the smaller brands to combine business models. The gym would also have membership incentives for members to attract new customers.
 
-# - User Experience (UX).
+# User Experience (UX)
 ## 1. First Time Visitor Goals:
 * As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers and more to attract me to join.
-* I want to navigate easily throught the content.
+* I want to navigate easily throughout the content.
 * As a potential gym member, I want to see testimonials / feedback from current members before I invest.
 
 ## 2.  Returning Visitor Goals:
@@ -20,9 +20,9 @@ The aim to retain current members and attract new members is for the gym to have
 * After discovering the collaboration incentive on page three, I would like to find out more about any personal appearances by past winners and what information they might have for me if I was to enter the competiton.
 * I would like to check if there are any changes to company policy and procedure regarding COVID-19 restrictions or otherwise.
 
-# - Design.
+# Design
 ## 1. Colour Scheme:
-* The colour scheme for the design consist of blacks, blues and whites. I based these choices on the colour scheme featured in the home page hero image. I believe they go very well together and give the site a professional look. 
+* The colour scheme for the design consists of blacks, blues and whites. I based these choices on the colour scheme featured in the home page hero image. I believe they go very well together and give the site a professional look. 
 
 ## 2. Typography:
 * I chose to use the Abel Family & Open Sans Condensed fonts with the Sans-Serif font as the fallback incase of any issues. The fonts i chose seem to fit well with the flow of the page and they compliment the colour scheme very well.
@@ -32,7 +32,7 @@ The aim to retain current members and attract new members is for the gym to have
 * I chose the images because not only do the main images on page one and page three have the same colour scheme, but the backgrounds have a distinct similarity to the gym featured on page two. 
 * This seems to tie in well especially for a fictional gym, it gives a genuine impression that this gym actually exists.
 
-# - Technologies.
+# Technologies
 ## 1. Coding Languages:
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -48,22 +48,22 @@ The aim to retain current members and attract new members is for the gym to have
 * [jQuery](https://jquery.com/): jQuery was installed to enable my NavBar toggler icon to become responsive when used in mobile format.
 * [Git](https://git-scm.com/): Git was used for version control and to make good use of my git pod terminal to push my code from Git to GitHub.
 
-# - Site Testing.
+# Site Testing
 ## 1. Code checking & validation:
 * I validated all four pages of my HTML code using the [W3C HTML Markup Validation Service](https://validator.w3.org/) and my CSS code by using the [W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/).
 ## 2. User story testing and results.
 
 ###  A - First Time Visitor Goals:
 * As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers or otherwise.
-* I want to navigate easily throught the content.
+* I want to navigate easily throughout the content.
 * As a potential new gym member, I want to see testimonials / feedback from current members before I invest.
 
 ### B - Result:
-* Upon first entering the site, for a 24 hour independant gym you can see a lot of effort has gone into the design - this shows the owners attention to detail. This gives the end user a positive impression that the owners care about the business.
-* The nav bar stands out due to the colour scheme which enables easy navigation, the first few scrolls brings the user to the member testimonial section which is both informative and inviting. 
+* Upon first entering the site, for a 24-hour independant gym you can see a lot of effort has gone into the design - this shows the owners attention to detail. This gives the end user a positive impression that the owners care about the business.
+* The nav bar stands out due to the colour scheme which enables easy navigation, the first few scrolls bring the user to the member testimonial section which is both informative and inviting. 
 * The layout of the site is spacious and simple, allowing the user to avoid being distacted by too much information.
 * The membership discount promotional incentive is situated within an image which fits well within both the color scheme and design.
-* The collaboration page can be easily found within the nav bar which brings the first time user to the campaign page, this instantly makes the business unique as this is not something an end user would have come across before.
+* The collaboration page can be easily found within the nav bar which brings the first-time user to the campaign page, this instantly makes the business unique as this is not something an end user would have come across before.
 
 ### A - Returning Visitor Goals:
 * I would like to be able to contact the gym incase I have any further questions or concerns.
@@ -85,26 +85,26 @@ The aim to retain current members and attract new members is for the gym to have
 * The page has a dedicated section for each PA (Personal Appearance) announced, I enjoyed how the section is laid out in regards to imagery and information. 
 * A hyperlink is found inside the footer on each page which opens up a seperate browser window detailing the gyms policies and procedures, the colour scheme of that documentation matches the site which I found to tie in well.
 
-## 3. Devices and Browsers.
+## 3. Devices and Browsers
 * [Google Chrome](https://www.google.co.uk/chrome), [FireFox](https://www.mozilla.org/en-GB/firefox/new/) & [Microsoft Edge](https://www.microsoft.com/en-us/edge) were the browsers used for desktop testing. All of which showed no performance issues. No new browser windows opened when links were clicked which is to be expected. 
 * I used an old iPhone 5 to test my site using [Safari](https://www.apple.com/uk/safari/) as well as a Samsung Galaxy A21s to test the site on a bigger screen. Both of which showed no distortion or stretched / pixelated imagery.
 
-## 4. Third Party end user testing.
+## 4. Third Party end user testing
 * I decided to test my site on a number of colleagues and family members which I advised to act as mutual parties for genuine feedback. Most found the site to be professional, the negative feedback I recieved was regarding the Trainer and Member images not sitting evenly between their name and paragraph text. This has since been rectified and further details are explained in the 'Bugs & Fixes' section.
 
-## 5. Bugs & Fixes.
+## 5. Bugs & Fixes
 1. NavBar links would not stay on another color when the active psuedo-class was introduced to my CSS file. This was rectified by removing the bg-dark and bg-light inline Bootstrap classes. Bootstrap had to be overidden.
 2. NavBar color of black was removed when the inline bg-dark & bg-light inline classes were removed. This was resolved by creating a new CSS .navbar class and then styled with colour choice.
 3. Media images and text for the Trainer and Member testimonial sections became disloged from their positioning when viewed on a mobile device. I removed the position:absolute from the .rounded-circle class and moved the images between the name header and the paragraph class and gave them a top and bottom margin to allow better positioning when viewed on a mobile device.
 4. The jumbotron text on page 1 and 2 weren't centered within the image when moz, webkit & O prefixes were removed as I had sourced the hero image code from the Whisky Drop project. I had also accidentally removed the flex display, align item and justify content properties, which were restored. This then rectified the issue.
 5. Could not change the border colour on the NavBar toggle icon to blue when clicked. The border colour surrounding the NavBar toggler icon was set to Bootstrap default yellow when active. This was rectified by removing the outline in the button:hover class to none via [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools). I was then able to add individual CSS styling for the navbar-toggler icon by adding the :focus and :hover psuedo classes.
 
-# Credits & Aknowledgements.
+# Credits & Acknowledgements
 ## Credits:
 * The idea for the general site layout including the media image layout and HTML references were taken from the Whiskey Drop site project lead by Matt Rudge from [Code Institute](https://codeinstitute.net/).
 * The images were sourced from [Shutterstock](https://www.shutterstock.com/).
 
-## Aknowledgements:
+## Acknowledgements:
 * The NavBar active psuedo issue was discussed by call with JimLynx_lead on Slack.
 * [Stack Overflow](https://stackoverflow.com/) was used to source the psuedo classes for the NavBar and the media queries for hiding the jumbotron text in different screen widths.
 * My Git commits were structured on the examples used in the article that can be found [here](https://dev.to/chrissiemhrk/git-commit-message-5e21).
