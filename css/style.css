@@ -105,9 +105,30 @@ button:focus {
     padding-top: 30px;
 }
 
+.image-align {
+    text-align: center;
+}
+
+.member-header {
+    font-family: 'Abel', sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: var(--smooth-blue);
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+}
+
 .member-story {
     font-size: 19px;
     padding-top: 13px;
+    color: var(--smooth-blue);
+    text-align: center;
+}
+
+.member-name {
+    color: var(--smooth-blue);
+    text-align: center;
 }
 
 .rounded-circle {
