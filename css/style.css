@@ -3,6 +3,11 @@ body {
     background-color: #fafafa;
 }
 
+:root {
+    --smooth-blue: #4b8bb9;
+    --smooth-white: #fafafa;
+    --primary-font: 'Abel', sans-serif;
+}
 /*--------------------------------------------------Navbar*/
 .navbar {
     background-color: black;
@@ -11,11 +16,11 @@ body {
     letter-spacing: 2px;
     font-size: 30px;
     font-weight: bold;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
 }
 
 .navbar-brand {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     font-size: 35px;
     letter-spacing: 2px;
 }
@@ -25,24 +30,24 @@ body {
 }
 
 a.nav-link {
-    color: #fafafa;
+    color: var(--smooth-white);
     font-size: 31px;
 }
 
 .nav-link:hover {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
 }
 
 .active a {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
 }
 
 .navbar-brand:hover {
-    color: #fafafa;
+    color: var(--smooth-white);
 }
 
 .fa-bars {
-    color: #fafafa;
+    color: var(--smooth-white);
     font-size: 30px;
 }
 
@@ -52,7 +57,7 @@ button:focus {
 
 .navbar-toggler:focus, 
 .navbar-toggler:hover {
-    border: 2px solid #4b8bb9;
+    border: 2px solid var(--smooth-blue);
 }
 
 /*--------------------------------------------------Home main image*/
@@ -93,7 +98,7 @@ button:focus {
 
 .testimonial-header {
     font-family: 'Abel', sans-serif;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     text-align: center;
     margin-top: 10px;
     font-size: 10px;
@@ -128,7 +133,7 @@ button:focus {
 }
 
 .jumbotron-refer {
-    color: #fafafa;
+    color: var(--smooth-white);
     text-align: center;
     font-size: 18px;
 }
@@ -139,19 +144,19 @@ button:focus {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     letter-spacing: 1px;
     font-size: 38px;
 }
 
 .fa-lg {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     padding-right: 5px;
 }
 
 h4 {
     padding-bottom: 25px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     word-spacing: -1px;
     text-align: center;
 }
@@ -169,24 +174,24 @@ h4 {
 
 .fa-times-circle {
     font-size: 150px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     margin-top: 19px;
 }
 
 .fa-usd {
     font-size: 150px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     margin-top: 19px;
 }
 
 .price-text {
-    color: #fafafa;
+    color: var(--smooth-white);
     font-size: 25px;
     padding-top: 15px;
 }
 
 .text-bottom {
-    color: #fafafa;
+    color: var(--smooth-white);
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 19px;
@@ -245,7 +250,7 @@ h4 {
 }
 
 .text-container {
-    background-color: #4b8bb9;
+    background-color: var(--smooth-blue)
 }
 
 .benched-text {
@@ -283,13 +288,13 @@ h4 {
 .ask-us-anything-header {
     text-align: center;
     padding-top: 25px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     letter-spacing: 1px;
     font-size: 38px;
 }
 
 .ask-us-anything-header h4 {
-    color: #fafafa;
+    color: var(--smooth-white);
 }
 
 .ask-us-anything-paragraph-container{
@@ -297,15 +302,15 @@ h4 {
 }
 
 .blockquote h5 {
-    color: #fafafa;
+    color: var(--smooth-white);
 }
 
 .form-row {
-    color: #fafafa; 
+    color: var(--smooth-white);
 }
 
 .text-muted {
-    color: #fafafa !important;
+    color: var(--smooth-white) !important;
 }
 /*--------------------------------------------------Gym Facilities*/
 
@@ -313,19 +318,19 @@ h4 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px; 
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     letter-spacing: 1px;
     font-size: 38px;
 }
 
 .fa-lg {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     padding-right: 5px;
 }
 
 h4 {
     padding-bottom: 25px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     word-spacing: -1px;
     text-align: center;
 }
@@ -334,7 +339,7 @@ h4 {
 
 .trainer-header {
     font-family: 'Abel', sans-serif;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     text-align: center;
     margin-top: 10px;
     font-size: 10px;
@@ -361,7 +366,7 @@ h4 {
 .pa-container {
     text-align: center;
     padding-bottom: 0;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     margin-top: 25px;
 }
 
@@ -382,24 +387,24 @@ p.intro {
 }
 
 .signup-disclaimer-text {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
 }
 
 .font-color {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     font-size: 19px;
 }
 
 .welcome-aboard-text {
     padding-bottom: 25px;
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     word-spacing: -1px;
     text-align: center;
     font-size: 40px;
 }
 
 .welcome-message-text {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     text-align: center;
     font-size: 19px;
     margin-bottom: 50px;
@@ -408,20 +413,20 @@ p.intro {
 /*--------------------------------------------------Buttons*/
 
 .btn {
-    color: #4b8bb9;
+    color: var(--smooth-blue);
     font-weight: 600;
 }
 
 .btn:hover {
-    background-color: #4b8bb9;
+    background-color: var(--smooth-blue);
 }
 
 .btn-outline-secondary {
-    border-color: #4b8bb9;
+    border-color: var(--smooth-blue);
 }
 
 button.navbar-toggler{
-    color: #fafafa;
+    color: var(--smooth-white);
 }
 
 .btn {
@@ -440,18 +445,18 @@ button.navbar-toggler{
 
 .fa-instagram {
     font-size: 47px;
-    color: #fafafa;
+    color: var(--smooth-white);
 }
 
 .fa-facebook-square {
     font-size: 47px;
-    color: #fafafa;
+    color: var(--smooth-white);
     padding-right: 15px;
 }
 
 .card {
     text-align: center;
-    background-color: #4b8bb9;
+    background-color: var(--smooth-blue);
 }
 
 .card-header {
@@ -459,7 +464,7 @@ button.navbar-toggler{
 }
 
 .footer-header {
-    color: #fafafa;
+    color: var(--smooth-white);
     padding-top: 25px;
     padding-bottom: 10px;
     font-size: 32px;
@@ -473,7 +478,7 @@ button.navbar-toggler{
 }
 
 a {
-    color: #fafafa;
+    color: var(--smooth-white);
 }
 /*--------------------------------------------------Container media queries and styling */
 
