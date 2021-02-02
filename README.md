@@ -105,6 +105,20 @@ The aim to retain current members and attract new members is for the gym to have
 * The images were sourced from [Shutterstock](https://www.shutterstock.com/).
 
 ## Acknowledgements
-* The NavBar active psuedo issue was discussed by call with JimLynx_lead on Slack.
-* [Stack Overflow](https://stackoverflow.com/) was used to source the psuedo classes for the NavBar and the media queries for hiding the jumbotron text in different screen widths.
-* My Git commits were structured on the examples used in the article that can be found [here](https://dev.to/chrissiemhrk/git-commit-message-5e21).
+* Input on bugs were discussed with JimLynx_lead and my Mentor Nishant Kumar.
+* NavBar styling and media image layout was discussed with Nishant Kumar.
+
+# Deployment
+## Git Hub Pages
+* To create this project and it's repository, I opened a new repository by clicking the green button "new", making sure I used the Code Institute's student template.
+* Once this repository was created I then selected the Git Pod button to start work on my code.
+* Once my code was created I then performed git add, git commit and git push via the terminal where it was then pushed to my repository. I then performed the following steps:
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under the Source title, click the dropdown button labelled "None" and select the "Master Branch" option (this will prompt the page to automatically refresh)
+5. Scroll back down to the Git Hub Pages section to find the published site link.
+* You can clone the repository via the command line by performing the following:
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click the button with the arrow icon labelled 'Code'.
+
