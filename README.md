@@ -5,6 +5,7 @@ This is my website for a fictional 24-hour gym. I put myself in the end users' p
 The aim to retain current members and attract new members is for the gym to have a partnership with a sportswear brand to scout potential models for an ever-growing sportwear brand "SportiveWear" to become an ambassador for the gym and the brand. I combined two of the most most relatable markets to each other, gyms and sportswear. I've found this to be a potential opportunity for the smaller brands to combine business models. The gym would also have membership incentives for members to attract new customers.
 
 # User Experience (UX)
+[Am I Responsive?](images/Responsive.png)
 ## 1. First Time Visitor Goals
 * As a first time vistior I want to learn more about what makes this gym different from the many others out there, so I'm looking for incentives / promotional offers and more to attract me to join.
 * I want to navigate easily throughout the content.
